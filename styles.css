@@ -67,10 +67,15 @@ h6,
 .h4,
 .h5,
 .h6,
-.serif {
+.serif,
+.navbar-brand {
   /*font-weight: 900;*/
   font-family: 'Bebas Neue', cursive;
  }
+
+.navbar-brand{
+  font-size: 36px;
+}
 
 p {
   font-size: 14px;
@@ -143,7 +148,8 @@ ul li {
   list-style: none;
   display: inline-block;
   float: right;
-}
+  }
+
 ul li a {
   display: block;
   text-decoration: none;
@@ -173,4 +179,12 @@ ul li a:hover {
 .navbar-right {
     float: right !important;
     margin-right: 0;
+}
+
+.navbar-brand img{
+  left:30px;
+}
+
+#carouselSite{
+  top: 170px;
 }
