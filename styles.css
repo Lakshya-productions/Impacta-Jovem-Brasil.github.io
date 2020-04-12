@@ -26,6 +26,8 @@
        url('./fonts/comfortaa/comfortaa-v28-latin-regular.svg#Comfortaa') format('svg'); /* Legacy iOS */
 }
 
+
+
 /*--------------------  Headers   -----------------*/
 *{
 	margin: 0;
@@ -65,10 +67,13 @@ h1 {
 }
 
 
+
 /* --------------------- NAVBARS ---------------------*/
 
 /*           Black Navbar          */
-nav {
+.black-nav {
+	height: 5vh; 
+	background: black;
 }
 .c1 {
 	height: 100%;
@@ -76,7 +81,7 @@ nav {
     margin-left: 30%;
 }
 .nav-links{
-	display: flex;    /* ?? */
+	display: flex;   
 	list-style: none;
 	width: 50%;
 	height: 100%;  /*all height from nav*/
@@ -94,8 +99,6 @@ nav {
 	color: white;
 }
 
-
-
 /*                White Navbar          */
 .navbar-brand{
   font-size: 36px;
@@ -103,6 +106,7 @@ nav {
 .navbar-brand img{
   left:30px;
 }
+
 
 
 /* --------------------- CAROUSEL --------------- */
