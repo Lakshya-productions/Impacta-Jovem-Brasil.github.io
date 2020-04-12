@@ -1,3 +1,4 @@
+/* -------------------- Fonts --------------------- */
 /* bebas-neue-regular - latin */
 @font-face {
   font-family: 'Bebas Neue';
@@ -62,18 +63,24 @@ h2 {
 h1 {
   font-size: 36px;
 }
-/* -----------------------------------------------*/
 
-/*-------------------- Black Navbar  --------------------*/
+
+
+
+
+
+/* --------------------- NAVBARS ---------------------*/
+
+/*           Black Navbar          */
 nav {
 }
 .c1 {
 	height: 100%;
 	margin-right: auto;
-    margin-left: 20%;
+    margin-left: 30%;
 }
 .nav-links{
-	display: flex;
+	display: flex;    /* ?? */
 	list-style: none;
 	width: 50%;
 	height: 100%;  /*all height from nav*/
@@ -81,8 +88,8 @@ nav {
 	margin-left: auto;
 }
 .nav-links .li1 .a1 {
-	font-family: 'Comfortaa';
-	font-size: 15px; 
+	/*font-family: 'Comfortaa';
+	font-size: 15px;*/
 	color: grey;
 	text-decoration: none;
 	padding-left: 20px;
@@ -91,7 +98,9 @@ nav {
 	color: white;
 }
 
-/*------------------         White Navbar     -----------------*/
+
+
+/*                White Navbar          */
 .navbar-brand{
   font-size: 36px;
 }
@@ -99,7 +108,10 @@ nav {
   left:30px;
 }
 
-/*-------------------------        Carousel   --------------------*/
+
+/* --------------------- CAROUSEL --------------- */
+
+/*               Carousel               */
 #carouselSite{
-  top: 0px;    /* com ou sem? */
+  top: 0px;    /* com ou sem ? */
 }
