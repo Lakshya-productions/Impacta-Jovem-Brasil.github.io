@@ -26,13 +26,20 @@
        url('./fonts/comfortaa/comfortaa-v28-latin-regular.svg#Comfortaa') format('svg'); /* Legacy iOS */
 }
 /*  Icons  */
-.feather-16{
-    width: 16px;
-    height: 16px;
+.svg-icon {
+  width: 1.5em;
+  height: 1.5em;
 }
-.feather-20{
-    width: 20px;
-    height: 20px;
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: white;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
 }
 
 /*--------------------  Headers   -----------------*/
