@@ -97,7 +97,7 @@ h1 {
 .nav-links{
 	display: flex;   
 	list-style: none;
-	width: 50%;
+	width: 45%;
 	height: 100%;  /*all height from nav*/
 	align-items: center;
 	margin-left: auto;
