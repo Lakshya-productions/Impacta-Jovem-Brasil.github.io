@@ -34,7 +34,12 @@
 .svg-icon path,
 .svg-icon polygon,
 .svg-icon rect {
-  fill: white;
+  fill: grey;
+}
+.svg-icon path:hover,
+.svg-icon polygon:hover,
+.svg-icon rect:hover {
+	fill: white;
 }
 
 .svg-icon circle {
