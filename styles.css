@@ -86,7 +86,8 @@ h1 {
 
 /*           Black Navbar          */
 .black-nav {
-	height: 5vh; 
+	display: block;
+	height: 35px; 
 	background: black;
 }
 .c1 {
