@@ -97,8 +97,9 @@ h1 {
 }
 .c1 {
 	height: 100%;
-	margin-right: auto;
-    margin-left: 30%;
+	margin-right: 10%;
+        margin-left: auto;
+        float: right;
 }
 .nav-links{
 	display: flex;   
@@ -134,4 +135,23 @@ h1 {
 /*               Carousel               */
 #carouselSite{
   top: 0px;    /* com ou sem ? */
+}
+
+
+/*--------------------  MEDIAS ------------------*/
+
+@media (max-width: 768px) {
+	.c1 {
+		margin-right: 15%;
+	}
+}
+@media (max-width: 520px) {
+	.c1 {
+		margin-right: 20%;
+	}
+}
+@media (max-width: 390px) {
+	.c1 {
+		margin-right: 25%;
+	}
 }
