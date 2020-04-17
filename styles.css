@@ -1,5 +1,6 @@
-/* -------------------- Fonts --------------------- */
-/* bebas-neue-regular - latin */
+/* -------------------- FONTS --------------------- */
+
+/* bebas-neue-regular - latin */   /* Titles */
 @font-face {
   font-family: 'Bebas Neue';
   font-style: normal;
@@ -12,7 +13,7 @@
        url('./fonts/bebas-neue/bebas-neue-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('./fonts/bebas-neue/bebas-neue-v1-latin-regular.svg#BebasNeue') format('svg'); /* Legacy iOS */
 }
-/* comfortaa-regular - latin */
+/* comfortaa-regular - latin */   /* Paragraphs */
 @font-face {
   font-family: 'Comfortaa';
   font-style: normal;
@@ -56,11 +57,15 @@
 
 
 
-/*--------------------  Headers   -----------------*/
+/*--------------------  HEADERS   -----------------*/
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
 }
 
 h1,
@@ -203,19 +208,29 @@ h1 {
 	}
 }
 
-/*       carousel     */
-/*@media (max-width: 767px) {
-	.carousel-item img{
-		height: 280px;
-	}
+
+
+/*---------------------------------  DIVS & FOOTERS  ---------------------------------*/
+
+/*---------------- Divs ---------------------*/
+
+.container{
+	margin: auto;
 }
-@media (max-width: 600px) {
-	.carousel-item img{
-		height: 250px;
-	}
+.img-fluid {
+  border-radius: 5px;
+  width: 50%;
+  float: right;
+  margin-left: 5px;
 }
-@media (max-width: 500px) {
-	.carousel-item img{
-		height: 200px;
-	}
-}*/
+
+/*----------------- Footer --------------------*/
+footer{
+	background: black;
+	color: white;
+	font-family: 'Comfortaa', cursive;
+	padding: 10px 20px;
+}
+
+
+/*----------------------------------  OWL CAROUSEL --------------------------------*/
