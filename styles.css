@@ -294,6 +294,8 @@ h1 {
 }
 
 
+
+
 /*------------------------------------------ FOOTER ----------------------------------*/
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background */
 /* https://getbootstrap.com/docs/4.4/layout/grid/#row-columns */
@@ -303,69 +305,11 @@ footer{
 	font-family: 'Comfortaa', cursive;
 	padding: 4em 0 4em 0;
 }
-
-#footer {
-	background: #000 none repeat scroll 0 0;
-    padding-bottom: 15px;
-    text-align: center;
-    max-height: 100%;
-    z-index: 100;
-    position: relative;
-}
-@media (max-width: 980px) {
-	#footer {
-		padding: 4em 3em 2em 3em;
-	}
-}
-
-#footer .footer-text {
-	color: white;
-	font-size: 14px;
-	font-weight: 300;
-	text-align: left !important;
-}
-.footer-text .container {
-    max-width: 880px;
-    width: 100%;
-}
-
-.row {
-
-    margin-left: -15px;
-    margin-right: -15px;
-}
-
-@media (max-width: 767px) {
-	.hidden-xs {
-		display: none !important;
-	}
-	.col-xs-4 {
-		width: 33.33333333%;
-		float: left;
-	}
-}
-@media (min-width: 768px) {
-	.col-sm-4 {
-        width: 33.33333333%;
-        float: left;
-    }
-
-}
-.col-xs-4, .col-sm-4 {
-	position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-#footer .text-center > h3 {
-	font-family: 'Bebas Neue', cursive;
-	color: white;
-}
 section.footer-text a {
-	color: #fff;
+	color: gray;
 }
 section.footer-text a:hover {
+	color: white;
 	text-decoration: none;
-	color: grey;
+	transition: color 0.5s;
 }
