@@ -107,7 +107,9 @@ h1 {
   font-size: 36px;
 }
 
-
+.text-center {
+    text-align: center;
+}
 
 
 
@@ -156,6 +158,11 @@ h1 {
 .navbar-brand{
   font-size: 36px;
 }
+.nav-item {
+	font-weight: 300;
+	font-family: 'Comfortaa', cursive;
+	font-size: 14px;
+}
 .navbar-brand img{
   left:30px;
   width: 60px;
@@ -172,7 +179,7 @@ h1 {
 
 /* --------------------- CAROUSEL --------------- */
 
-/*               Carousel               */
+/*    Carousel   */
 #carouselSite{
   top: 0px;    /* com ou sem ? */
 }
@@ -279,6 +286,7 @@ h1 {
 	    padding-top: 200px;  see padding of next container
     }
 } */
+
 /*     Media      */
 @media (max-width: 768px) {
 	.img-fluid {
@@ -292,6 +300,7 @@ h1 {
 	    margin-bottom: 100px;
     }
 }
+
 
 
 
