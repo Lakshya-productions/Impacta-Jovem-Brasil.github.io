@@ -57,6 +57,14 @@
 
 
 
+
+
+
+
+
+
+
+
 /*--------------------  HEADERS   -----------------*/
 *{
 	margin: 0;
@@ -98,6 +106,17 @@ h2 {
 h1 {
   font-size: 36px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -146,12 +165,25 @@ h1 {
 
 
 
+
+
+
+
+
 /* --------------------- CAROUSEL --------------- */
 
 /*               Carousel               */
 #carouselSite{
   top: 0px;    /* com ou sem ? */
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -210,27 +242,71 @@ h1 {
 
 
 
+
+
+
+
+
+
+
+
+
+
 /*---------------------------------  DIVS & FOOTERS  ---------------------------------*/
 
-/*---------------- Divs ---------------------*/
+/*                  Divs               */
 
 .container{
 	margin: auto;
 }
+
+#about .container{
+	margin-bottom: 50px;
+}
+
 .img-fluid {
   border-radius: 5px;
   width: 50%;
   float: right;
   margin-left: 5px;
 }
+/*note: If an image has a height too high
+#aboutx img {
+	max-height: 450px;    height of text/div
+}
+@media (min-width: 1200px) {
+	#about .container{
+	    padding-top: 200px;  see padding of next container
+    }
+} */
+#about3 img {
+	max-height: 450px;
+}
 
-/*----------------- Footer --------------------*/
+/*     Media      */
+@media (max-width: 768px) {
+	.img-fluid {
+		float: none;
+		width: 100%;
+		margin: 0 0 10px 0;
+	}
+}
+@media (min-width: 992px) {
+	#about .container{
+	    margin-bottom: 100px;
+    }
+}
+@media (min-width: 1200px) {
+	#about4 {
+	    padding-top: 100px;
+    }
+}
+
+
+/*------------------------------------------ FOOTER ----------------------------------*/
 footer{
 	background: black;
 	color: white;
 	font-family: 'Comfortaa', cursive;
 	padding: 10px 20px;
 }
-
-
-/*----------------------------------  OWL CAROUSEL --------------------------------*/
