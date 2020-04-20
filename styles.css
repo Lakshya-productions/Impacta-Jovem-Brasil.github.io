@@ -91,11 +91,11 @@ h6,
 .serif,
 .navbar-brand {
   font-weight: 400;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue';
  }
 p {
   font-size: 14px;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa';
 }
 h3 {
   font-size: 18px;
@@ -160,7 +160,7 @@ h1 {
 }
 .nav-item {
 	font-weight: 300;
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa';
 	font-size: 14px;
 }
 .navbar-brand img{
@@ -311,7 +311,7 @@ h1 {
 footer{
 	background: black;
 	color: white;
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa';
 	padding: 4em 0 4em 0;
 }
 section.footer-text a {
