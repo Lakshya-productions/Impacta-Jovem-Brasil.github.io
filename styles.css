@@ -168,23 +168,6 @@ h1 {
 
 /*------------------------  MEDIAS  ----------------------*/
 
-/*       black navbar       */
-@media (max-width: 768px) {
-	.c1 {
-		margin-right: 15%;
-	}
-}
-@media (max-width: 520px) {
-	.c1 {
-		margin-right: 20%;
-	}
-}
-@media (max-width: 390px) {
-	.c1 {
-		margin-right: 25%;
-	}
-}
-
 /*       white navbar     */
 @media (max-width: 460px) {
 	.navbar-brand{
