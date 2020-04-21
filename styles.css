@@ -125,35 +125,6 @@ h1 {
 
 /* --------------------- NAVBARS ---------------------*/
 
-/*           Black Navbar          */
-.black-nav {
-	display: block;
-	height: 35px; 
-	background: black;
-}
-.c1 {
-	height: 100%;
-	margin-right: 10%;
-    margin-left: auto;
-    float: right;
-}
-.nav-links{
-	display: flex;   
-	list-style: none;
-	width: 45%;
-	height: 100%;  /*all height from nav*/
-	align-items: center;
-	margin-left: auto;
-}
-.nav-links .li1 .a1 {
-	color: grey;
-	text-decoration: none;
-	padding-left: 20px;
-}
-.nav-links .li1 .a1:hover {
-	color: white;
-}
-
 /*                White Navbar          */
 .navbar-brand{
   font-size: 36px;
