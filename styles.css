@@ -102,6 +102,7 @@ h3 {
 }
 h2 {
   font-size: 44px;
+  color: white;
 }
 h1 {
   font-size: 36px;
@@ -111,9 +112,13 @@ h1 {
     text-align: center;
 }
 
+h4{
+	font-size: 40px;
+}
 
-
-
+h6{
+	font-size: 20px;
+}
 
 
 
@@ -276,3 +281,4 @@ section.footer-text a:hover {
 	text-decoration: none;
 	transition: color 0.5s;
 }
+
