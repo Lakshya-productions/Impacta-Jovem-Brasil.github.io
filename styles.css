@@ -140,6 +140,17 @@ h1 {
   height: auto; 
   padding-right: 10px;
 }
+#whitenavbar .nav-link {
+	border-bottom: 3px solid transparent;
+}
+#whitenavbar .nav-link:after {
+	display:block;
+        content: '';
+        border-bottom: solid 3px #228B22;  
+        transform: scaleX(0);  
+        transition: transform 250ms ease-in-out;
+}
+#whitenavbar .nav-link:hover:after { transform: scaleX(1); }
 
 
 
