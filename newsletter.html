@@ -78,7 +78,7 @@ crossorigin="anonymous"></script>
 	$("#sendmessage").on("click", function() {
 	    message = $("#contactform").serialize();
 	    $.ajax({
-	        url: "//formspree.io/dynamicrealities@gmail.com", 
+	        url: "https://formspree.io/thanks?next=https%3A%2F%2Fimpacta-jovem-brasil.github.io%2Fnewsletter.html&language=pt", 
 	        method: "POST",
 	        data: {message: message},
 	        dataType: "json"
