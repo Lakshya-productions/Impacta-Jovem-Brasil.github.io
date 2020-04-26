@@ -44,7 +44,7 @@
    
 
 
-	    <form id="contactform" action="https://formspree.io/xqkyzakk" method="POST">
+	    <form action="https://formspree.io/xqkyzakk" method="POST">
 	    <label>
 	    Your email:
 	    <input type="text" name="_replyto">
@@ -52,7 +52,7 @@
 
 	    <!-- your other form fields go here -->
 
-	    <button id="sendmessage" type="submit">Send</button>
+	    <button type="submit">Send</button>
 	    </form>
 
 
@@ -71,22 +71,6 @@ crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 crossorigin="anonymous"></script>
-	
-<script>
-	var message = "";
-
-	$("#sendmessage").on("click", function() {
-	    message = $("#contactform").serialize();
-	    $.ajax({
-	        url: "//formspree.io/samuraijackweslley@gmail.com", 
-	        method: "POST",
-	        data: {message: message},
-	        dataType: "json"
-	    });
-	    alert('Thanks for the email, we\'ll be in touch promptly.');
-	    return false;
-	});
-</script>
 
 </body>
 
