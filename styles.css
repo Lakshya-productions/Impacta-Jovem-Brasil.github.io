@@ -140,21 +140,27 @@ h1 {
   height: auto; 
   padding-right: 10px;
 }
+#whitenav {
+	border-bottom: 1px solid #D3D3D3;
+}
 #whitenavbar .nav-link {
 	border-bottom: 3px solid transparent;
 }
+/*#whitenavbar .nav-link:hover {
+	border-bottom: 1px solid green;
+	transition: border-bottom 0.5s ease-in-out;
+}*/
 #whitenavbar .nav-link:after {
 	display:block;
-        content: '';
-        border-bottom: solid 3px #228B22;  
-        transform: scaleX(0);  
-        transition: transform 250ms ease-in-out;
+    content: '';
+    border-bottom: solid 3px #228B22;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
 }
 #whitenavbar .nav-link:hover:after { transform: scaleX(1); }
 @media (max-width: 991px) {
 	#whitenavbar .nav-link:hover:after {  transform-origin:  0% 50%; }
 }
-
 
 
 
@@ -285,11 +291,10 @@ footer{
 	padding: 4em 0 4em 0;
 }
 section.footer-text a {
-	color: gray;
+	color: white;
 }
 section.footer-text a:hover {
-	color: white;
+	color: gray;
 	text-decoration: none;
 	transition: color 0.5s;
 }
-
