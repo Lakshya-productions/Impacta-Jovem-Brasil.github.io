@@ -111,13 +111,9 @@ h1 {
     text-align: center;
 }
 
-h4{
-	font-size: 40px;
-}
 
-h6{
-	font-size: 20px;
-}
+
+
 
 
 
@@ -144,27 +140,6 @@ h6{
   height: auto; 
   padding-right: 10px;
 }
-
-
-
-
-
-
-
-
-/* --------------------- CAROUSEL --------------- */
-
-/*    Carousel   */
-#carouselSite{
-  top: 0px;    /* com ou sem ? */
-}
-
-
-
-
-
-
-
 
 
 
@@ -263,29 +238,10 @@ h6{
 
 
 
-/*------------------------------------------ FOOTER ----------------------------------*/
-/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background */
-/* https://getbootstrap.com/docs/4.4/layout/grid/#row-columns */
-footer{
-	background: black;
-	color: white;
-	font-family: 'Comfortaa';
-	padding: 4em 0 4em 0;
-}
-section.footer-text a {
-	color: gray;
-}
-section.footer-text a:hover {
-	color: white;
-	text-decoration: none;
-	transition: color 0.5s;
-}
 
 
 
-
-
-/*---------------------- Cards -------------------*/
+/*------------------------------- CARDS --------------------------*/
 @media (min-width: 576px){
 	.jumbotron {
 	    padding: 2rem 2rem;
@@ -295,5 +251,31 @@ section.footer-text a:hover {
 	.row #card {
 	margin-bottom: 4rem;
     }
+}
+
+
+
+
+
+
+
+
+/*------------------------------------------ FOOTER ----------------------------------*/
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background */
+/* https://getbootstrap.com/docs/4.4/layout/grid/#row-columns */
+footer{
+	background: black;
+	color: white;
+	font-family: 'Comfortaa';
+	margin-top: 40px;
+	padding: 4em 0 4em 0;
+}
+section.footer-text a {
+	color: gray;
+}
+section.footer-text a:hover {
+	color: white;
+	text-decoration: none;
+	transition: color 0.5s;
 }
 
