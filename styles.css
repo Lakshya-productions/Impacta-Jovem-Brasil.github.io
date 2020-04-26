@@ -281,3 +281,19 @@ section.footer-text a:hover {
 	transition: color 0.5s;
 }
 
+
+
+
+
+/*---------------------- Cards -------------------*/
+@media (min-width: 576px){
+	.jumbotron {
+	    padding: 2rem 2rem;
+	}
+}
+@media (max-width: 767px){
+	.row #card {
+	margin-bottom: 4rem;
+    }
+}
+
