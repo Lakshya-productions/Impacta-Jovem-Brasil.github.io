@@ -151,6 +151,9 @@ h1 {
         transition: transform 250ms ease-in-out;
 }
 #whitenavbar .nav-link:hover:after { transform: scaleX(1); }
+@media (max-width: 991px) {
+	#whitenavbar .nav-link:hover:after {  transform-origin:  0% 50%; }
+}
 
 
 
