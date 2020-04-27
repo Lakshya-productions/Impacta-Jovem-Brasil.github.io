@@ -16,6 +16,14 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<style>
+		body { background-color: #000; }
+		div { display: block; }
+		p { font-size: 18px;
+		    color: white; 
+		    line-height: 40px; 
+		  }
+	</style>
     
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 	
@@ -24,28 +32,41 @@
 
 <body>
 	<header>
+    
+        <div class="container" style="margin: 50px auto; max-width: 650px;">
 
-		<!--  White Navbar  -->
-	<nav id="whitenav" class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(255, 255, 255, 0.8);">
+        <div class="header-newsletter"><h2 style="color: white;"><img class="img-center" src="images/logo.png" style="height: 100px; width: 100px; margin-bottom: 10px; "></img>NEWSLETTER</h2>
+        </div>
 
-			<div class="container">
+        <div class="container section-newsletter">
+        	<p>Nessa <span>newsletter mensal</span> vamos compartilhar com você <span class="blue">oportunidades acadêmicas</span> acontecendo no brasil e ao redor do mundo ! 
+				Também enviaremos <span class="orange">notícias</span> sobre os <span class="purple">projetos</span> do <span class="green">Impacta Jovem Brasil</span>.
+				Talvez algumas piadas ou histórias pra te fazer sorrir 💕.
+				E fotos de <span class="brown">animais fofos</span>.<br>
+				Prometemos não fazer <span class="yellow">spam</span>. (sério!)</p>
+        </div>
 
-				<a class="navbar-brand" href="./index.html">
-					<img src="images/logo.png"
-						class="d-inline-block align-top">Impacta Jovem Brasil
-				</a>
-			</div>
-		</nav>
+        <div class="container email-newsletter">
+	        <form action="https://usebasin.com/f/07b8dbc81905" method="POST" id="my-contact-form">
+				 <label style="color: white;" for="email-address"></label>
+				 <input type="email" id="email" name="email" required maxlength="64" minlength="7" placeholder="E-mail">
+
+				 <fieldset> <button class="btn btn-danger" type="submit">Inscreva-se</button> </fieldset>
+		    </form>
+	    </div>
+
+	    </div>
+
 	</header>
 
-    
-    
-    
-         <form action="https://usebasin.com/f/07b8dbc81905" method="POST" id="my-contact-form">
-		 <label for="email-address">Email</label>
-		 <input type="email" id="email" name="email" required>
-		 <button type="submit">Submit</button>
-	 </form>
+
+	<footer id="footer">
+    	<section class="footer-text">
+    		<div class="container">
+    			<p style="font-size: 12px; text-align: center;">&copy; Impacta Jovem Brasil</p>
+    	    </div>
+    	</section>
+    </footer> 
 
 
 	    
