@@ -308,6 +308,19 @@ section.footer-text a:hover {
 
 
 /*------------------------------------ NEWSLETTER --------------------------------*/
+.home {
+	position: fixed;
+    top: 5px;
+    left: 20px;
+    padding: 5px 0;
+}
+.home a {
+	color: #ffaa00;
+}
+.home a:hover {
+	color: #ff4800;
+}
+
 .email-newsletter {
 	text-align: center;
 }
@@ -321,6 +334,7 @@ section.footer-text a:hover {
 .email-newsletter fieldset {
 	text-align: center;
 }
+
 fieldset {
     padding: 0;
     margin: 0;
