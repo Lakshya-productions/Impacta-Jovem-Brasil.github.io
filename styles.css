@@ -125,6 +125,10 @@ h1 {
 
 /* --------------------- NAVBARS ---------------------*/
 
+#blacknavbar .nav-link:hover {
+	fill: orange;
+}
+
 /*                White Navbar          */
 .navbar-brand{
   font-size: 36px;
@@ -146,10 +150,6 @@ h1 {
 #whitenavbar .nav-link {
 	border-bottom: 3px solid transparent;
 }
-/*#whitenavbar .nav-link:hover {
-	border-bottom: 1px solid green;
-	transition: border-bottom 0.5s ease-in-out;
-}*/
 #whitenavbar .nav-link:after {
 	display:block;
     content: '';
@@ -297,4 +297,72 @@ section.footer-text a:hover {
 	color: gray;
 	text-decoration: none;
 	transition: color 0.5s;
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------ NEWSLETTER --------------------------------*/
+.email-newsletter {
+	text-align: center;
+}
+.email-newsletter input[type=email] {
+	/*border-radius: 5px;*/
+    color: #29303b;
+    font-size: 18px;
+    height: auto;
+    padding: 10px 30px 10px 30px;
+}
+.email-newsletter fieldset {
+	text-align: center;
+}
+fieldset {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    border: 0;
+    min-width: 0;
+}
+
+.header-newsletter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+form { 
+margin: 0 auto; 
+width:  300px;
+}
+.section-newsletter span {
+	color: #ff0054;
+}
+.section-newsletter span.green {
+	color: #a5be00;
+}
+.section-newsletter span.blue {
+	color: #00a6ed;
+}
+.section-newsletter span.purple {
+	color: #db7f8e;
+}
+.section-newsletter span.orange {
+	color: #ff703d;
+}
+.section-newsletter span.brown {
+	color: #a3683c;
+}
+.section-newsletter span.yellow {
+	color: #f7b267;
 }
