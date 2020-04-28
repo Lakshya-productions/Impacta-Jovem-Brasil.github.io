@@ -105,12 +105,14 @@ crossorigin="anonymous"></script>
 <script type='text/javascript'>
 	// select the target node
 	var target = document.getElementById('mce-success-response');
+	var foorm = document.getElementById('mc-embedded-subscribe-form');
 
 	// create an observer instance
 	var observer = new MutationObserver(function(mutations) {
 	  mutations.forEach(function(mutation) {
 	    if (target.innerHTML === "Thank you for subscribing!") {
 	      target.innerHTML = "Obrigado por se inscrever! Cheque o seu email";
+	      foorm.style.display = 'none';
 	    }
 	  });
 	});
