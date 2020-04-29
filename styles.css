@@ -315,17 +315,17 @@ section.footer-text a:hover {
     padding: 5px 0;
 }
 .home a {
-	color: #ffaa00;
+	color: #ff4800;
 }
 .home a:hover {
-	color: #ff4800;
+	color: #ffaa00;
 }
 
 .email-newsletter {
 	text-align: center;
 }
 .email-newsletter input[type=email] {
-	/*border-radius: 5px;*/
+    border-radius: 5px;
     color: #29303b;
     font-size: 18px;
     height: auto;
