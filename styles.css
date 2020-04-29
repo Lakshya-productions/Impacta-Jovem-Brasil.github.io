@@ -315,17 +315,17 @@ section.footer-text a:hover {
     padding: 5px 0;
 }
 .home a {
-	color: #ff4800;
+	color: #ffaa00;
 }
 .home a:hover {
-	color: #ffaa00;
+	color: #ff4800;
 }
 
 .email-newsletter {
 	text-align: center;
 }
 .email-newsletter input[type=email] {
-    border-radius: 5px;
+	/*border-radius: 5px;*/
     color: #29303b;
     font-size: 18px;
     height: auto;
@@ -379,4 +379,16 @@ width:  300px;
 }
 .section-newsletter span.yellow {
 	color: #cc5803;
+}
+
+#collapseExample {
+	margin-top: 40px;
+}
+
+#news {
+	padding-bottom: 10px;
+}
+
+#btn-news {
+	text-align: right;
 }
