@@ -208,12 +208,17 @@ h1 {
 
 /*------------------- INTRO -----------------*/
 section .intro h2 {
-	font-size: 64px;
+	font-size: 60px;
 	font-weight: 600;
 	font-family:'AvenirMedium',Arial,sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	width: 100%;
+}
+@media (max-width: 700px)  {
+	section .intro h2 {
+		font-size: 32px;
+	}
 }
 
 
