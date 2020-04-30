@@ -35,6 +35,11 @@
   height: 1.5em;
 }
 
+.navtoggle .svg-icon path,
+.navtoggle .svg-icon polygon,
+.navtoggle .svg-icon rect {
+	fill: black;
+}
 .svg-icon path,
 .svg-icon polygon,
 .svg-icon rect {
