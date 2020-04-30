@@ -27,11 +27,7 @@
        url('./fonts/comfortaa/comfortaa-v28-latin-regular.svg#Comfortaa') format('svg'); /* Legacy iOS */
 }
 
-/*  Icons  */
-.feather-20{
-    width: 22px;
-    height: 22px;
-}
+
 /* svg-icon */
 .svg-icon {
   width: 1.5em;
@@ -41,12 +37,7 @@
 .svg-icon path,
 .svg-icon polygon,
 .svg-icon rect {
-  fill: grey;
-}
-.svg-icon path:hover,
-.svg-icon polygon:hover,
-.svg-icon rect:hover {
-	fill: white;
+  fill: white;
 }
 
 .svg-icon circle {
@@ -125,8 +116,21 @@ h1 {
 
 /* --------------------- NAVBARS ---------------------*/
 
-#blacknavbar .nav-link:hover {
-	fill: orange;
+#blacknavbar li a {                    
+	color: grey;
+	cursor: pointer;
+}
+#blacknavbar li a .svg-icon { 
+	opacity: 0.3;
+}
+#blacknavbar li a .svg-icon:hover {
+	opacity: 1;
+	transition: opacity 0.5s;
+}
+#blacknavbar li a:hover {
+	color: white;
+	text-decoration: none;
+	transition: color 0.5s;
 }
 
 /*                White Navbar          */
