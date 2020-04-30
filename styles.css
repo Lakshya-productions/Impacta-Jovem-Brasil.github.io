@@ -27,6 +27,7 @@
        url('./fonts/comfortaa/comfortaa-v28-latin-regular.svg#Comfortaa') format('svg'); /* Legacy iOS */
 }
 
+/*--------------------------------- ICONS ----------------------------*/
 
 /* svg-icon */
 .svg-icon {
@@ -107,13 +108,6 @@ h1 {
 
 
 
-
-
-
-
-
-
-
 /* --------------------- NAVBARS ---------------------*/
 
 #blacknavbar li a {                    
@@ -165,11 +159,7 @@ h1 {
 @media (max-width: 991px) {
 	#whitenavbar .nav-link:hover:after {  transform-origin:  0% 50%; }
 }
-
-
-
-
-/*------------------------  MEDIAS  ----------------------*/
+/*------------------------ NAVBAR MEDIAS ----------------------*/
 
 /*       white navbar     */
 @media (max-width: 460px) {
@@ -211,6 +201,19 @@ h1 {
 
 
 
+/*------------------- INTRO -----------------*/
+section .intro h2 {
+	font-size: 64px;
+	font-weight: 600;
+	font-family:'AvenirMedium',Arial,sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+
 
 
 
@@ -218,7 +221,7 @@ h1 {
 
 /*---------------------------------  DIVS & FOOTERS  ---------------------------------*/
 
-/*                  Divs               */
+/*                  Sobre               */
 
 .container{
 	margin: auto;
@@ -234,6 +237,7 @@ h1 {
   float: right;
   margin-left: 5px;
 }
+
 /*note: If an image has a height too high
 #aboutx img {
 	max-height: 450px;    height of text/div
@@ -242,9 +246,9 @@ h1 {
 	#about .container{
 	    padding-top: 200px;  see padding of next container
     }
-} */
+}*/
 
-/*     Media      */
+/*     Media Sobre     */
 @media (max-width: 768px) {
 	.img-fluid {
 		float: none;
@@ -265,7 +269,7 @@ h1 {
 
 
 
-/*------------------------------- CARDS --------------------------*/
+/*------------------------------- PROJETOS --------------------------*/
 @media (min-width: 576px){
 	.jumbotron {
 	    padding: 2rem 2rem;
@@ -385,6 +389,10 @@ width:  300px;
 	color: #cc5803;
 }
 
+
+
+
+/*-------------------------- NOTÍCIAS ---------------------------*/
 #collapseExample {
 	margin-top: 40px;
 }
