@@ -16,10 +16,11 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="styles.css">
-    
+
+    <script src="app.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+	<link rel="stylesheet" href="owlcarousel/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
 	
 </head>
 
@@ -31,7 +32,7 @@
 	  <div class="collapse navbar-collapse">
 	    <ul class="navbar-nav ml-auto" id="blacknavbar">
 		    
-	      <li class="nav-item"><a class="nav-link" href="./newsletter.html" target="_blank" style="border-right: 1px solid grey;">NEWSLETTER</a></li>
+	      <li class="nav-item"><a class="nav-link" href="./newsletter.html" target="_blank" style="border-right: 1px solid grey; ">NEWSLETTER</a></li>
 
 	      <li class="nav-item">
 	        <a class="nav-link" href="https://www.facebook.com/ImpactaJovemBrasil/" target="_blank"> <svg class="svg-icon" viewBox="0 0 20 20">
@@ -123,13 +124,34 @@
 
 
 
-    <!-- DIVS -->
 
+
+    <!-- INTRO -->
+    <section style="margin-top: 70px;">
+    	<div class="container intro">
+    		<h2 style="color: black;">impacta jovem brasil é<br> 
+    			<span
+    			     style="color: gray;"
+				     class="txt-rotate"
+				     data-period="2000"
+				     data-rotate='[ "#INSPIRAR", "#ENGAJAR", "#EMPODERAR", "#VALORIZAR" ]'>
+				</span>
+    		</h2>
+    	</div>
+    </section>
+    <!-- INTRO -->
+
+
+
+
+
+    <!-- SOBRE -->
     <div id="about">
 
-	<div id="titleabout" class="container">
+
+	<div id="titleabout" class="container" style="margin-bottom: 20px; margin-top: 60px;">
 		<br></br>
-		<h1 style="text-align: center;">SOBRE NÓS:</h1>
+		<h1 style="text-align: center;">SOBRE</h1>
 	</div>
 
 	    <div id="about1" class="container">
@@ -172,12 +194,15 @@
 	</div>
 
 	</div>
-</div>
-</div>
-    <!-- DIVS -->
+	</div>
+	</div>
+    <!-- SOBRE -->
 
 
-    <!-- CARDS -->
+
+
+
+    <!-- PROJETOS -->
 	<div id="projetos" class="jumbotron text-centered bg-dark" style="border-radius: 0px;">
 		<h2 id="tittle-projeto" style="color: white; text-align: center; margin-bottom: 2rem;">Projetos</h2>
         <div class="row">
@@ -189,11 +214,11 @@
                     <div class="card-body">
 						<br></br>
 						<h2 class="card-title">Mentorias</h2>
-						<h6 class="card-subtitle">O que fazemos:</h6>
+						<h6 style="font-size: 24px;" class="card-subtitle">O que fazemos:</h6>
                     </div>
                     <div class="card-body">
 						<p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-						<a href="./mentorias.html" target="_blank" class="btn btn-primary bg-success">Visitar</a>
+						<a href="./mentorias.html" target="_blank" class="btn btn-success">Visitar</a>
 					  </div>
                 </div>
 			</div>
@@ -205,12 +230,12 @@
                     <div class="card-body">
 						<br></br>
                         <h2 class="card-title">Ações Sociais</h2>
-						<h6 class="card-subtitle"> O que fazemos:</h6>
+						<h6 style="font-size: 24px;" class="card-subtitle"> O que fazemos:</h6>
                     </div>
 
                     <div class="card-body">
 						<p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-						<a href="./acoessociais.html" target="_blank" class="btn btn-primary bg-success">Visitar</a>
+						<a href="./acoessociais.html" target="_blank" class="btn btn-success">Visitar</a>
 					</div>
 
                 </div>
@@ -222,21 +247,22 @@
                     <div class="card-body">
 						<br></br>
 						<h2 class="card-title">Oportunidades</h2>
-						<h6 class="card-subtitle">O que fazemos:</h6>
+						<h6 style="font-size: 24px;" class="card-subtitle">O que fazemos:</h6>
                     </div>
                     <div class="card-body">
 						<p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-						<a href="./oportunidades.html" target="_blank" class="btn btn-primary bg-success">Visitar</a>
+						<a href="./oportunidades.html" target="_blank" class="btn btn-success">Visitar</a>
 					</div>
             </div>
         </div>
     </div>
-    <!-- CARDS -->
+</div>
+    <!-- PROJETOS -->
 
 
 	<br></br>
 
-	<!-- CAROUSEL -->
+	<!--
 		<div id="carouselSite" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#carouselSite" data-slide-to="0" calss="active"></li>
@@ -297,7 +323,7 @@
 		</div>
 		</div>
 	</div>
-	<!-- CAROUSEL -->
+	-->
 
 
 	<!-- NOTÍCIAS-->
@@ -310,6 +336,17 @@
 	</button>
 	</div>
 	<!-- NOTÍCIAS -->
+
+
+    
+
+
+
+
+
+
+
+	
 
 
     <!-- FOOTER -->
@@ -330,7 +367,7 @@
 				    <div class="col-sm text-center">
 				      <p><a href="link">Galeria</a></p>
 				      <p><a href="link">Artigos</a></p>
-					    <p><a href="mailto:info@IJB.org">info@IJB.org</a></p>
+				      <p>info@IJB.org</p>
 				    </div>
 				    <div class="col-sm text-center">
 				      <h3 style="font-size: 22px;">NEWSLETTER <span style="margin-left: 5px;"><svg class="svg-icon" viewBox="0 0 22 22">
@@ -363,14 +400,14 @@ crossorigin="anonymous"></script>
 integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 crossorigin="anonymous"></script>
 
-<script src="owlcarousel/owl.carousel.min.js"></script>
+<script src="owlcarousel/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
 
 
 <script>
     jQuery(document).ready(function($) {
     	$('.owl-carousel').owlCarousel({
 	    items:1,    /*items on screen*/
-	    margin:10,
+	    margin:0,
 	    autoHeight:true
 	    });
 });    
