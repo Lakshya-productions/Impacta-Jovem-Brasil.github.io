@@ -34,10 +34,9 @@
   width: 1.5em;
   height: 1.5em;
 }
-
-.navtoggle .svg-icon path,
-.navtoggle .svg-icon polygon,
-.navtoggle .svg-icon rect {
+.navbar-toggler .svg-icon path,
+.navbar-toggler .svg-icon polygon,
+.navbar-toggler .svg-icon rect {
 	fill: black;
 }
 .svg-icon path,
@@ -111,8 +110,6 @@ h1 {
 
 
 
-
-
 /* --------------------- NAVBARS ---------------------*/
 
 #blacknavbar li a {                    
@@ -160,10 +157,34 @@ h1 {
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
 }
+#whitenavbar a {
+	font-weight: 500;
+	color: black;
+}
+#whitenavbar a:hover {
+	color: green;
+}
 #whitenavbar .nav-link:hover:after { transform: scaleX(1); }
 @media (max-width: 991px) {
 	#whitenavbar .nav-link:hover:after {  transform-origin:  0% 50%; }
 }
+
+.navbar-toggler {
+	border: none;
+	cursor: pointer;
+}
+
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navw:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background-color: green;
+    transition: background-color 0.25s;
+}
+
 /*------------------------ NAVBAR MEDIAS ----------------------*/
 
 /*       white navbar     */
@@ -217,11 +238,14 @@ section .intro h2 {
 }
 @media (max-width: 700px)  {
 	section .intro h2 {
-		font-size: 32px;
+		font-size: 40px;
 	}
 }
-
-
+@media (max-width: 550px)  {
+	section .intro h2 {
+		font-size: 34px;
+	}
+}
 
 
 
