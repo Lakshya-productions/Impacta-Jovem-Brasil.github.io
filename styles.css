@@ -427,7 +427,7 @@ width:  300px;
 
 
 /*-------------------------- NOTÍCIAS ---------------------------*/
-#collapseExample {
+/*#collapseExample {
 	margin-top: 40px;
 }
 
@@ -437,4 +437,26 @@ width:  300px;
 
 #btn-news {
 	text-align: right;
+}*/
+
+/*--------------------------- ARTIGOS --------------------------*/
+#artigos {
+	margin-bottom: 100px;
+}
+#artigos p {
+	font-family: Segoe UI,Arial,sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: left;
+	color: #37392e;
+}
+#artigos a {
+	font-weight: 600;
+	color: #517a00;
+}
+#artigos a:hover {
+	text-decoration: none;
+	color: black;
+	transition: color 0.25s ease-in-out;
 }
