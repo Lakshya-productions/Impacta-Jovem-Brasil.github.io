@@ -117,14 +117,14 @@ h1 {
 	cursor: pointer;
 }
 
-.svg-icon {
+#blacknavbar .svg-icon { 
 	transition: all 0.3s ease-in-out;
 	opacity: 0.3;
 }
-.svg-icon:hover {
-	transform: scale(1.2);
+#blacknavbar .svg-icon:hover {
 	opacity: 1;
 	transition: opacity 0.3s;
+	transform: scale(1.2);
 }
 
 #blacknavbar li a:hover {
