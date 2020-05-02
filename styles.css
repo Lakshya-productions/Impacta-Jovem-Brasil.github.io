@@ -124,7 +124,7 @@ h1 {
 .svg-icon:hover {
 	transform: scale(1.2);
 	opacity: 1;
-	transition: opacity 0.5s;
+	transition: opacity 0.3s;
 }
 
 #blacknavbar li a:hover {
