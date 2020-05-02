@@ -497,8 +497,8 @@ width:  300px;
   height: 100%;
 }
 
-/*---------------------------- MEMBROS -------------------------*/
 
+/*---------------------------- MEMBROS -------------------------*/
 #container-membros .row .col {
 	text-align: center;
 	justify-content: center;
@@ -513,6 +513,7 @@ width:  300px;
 	color: #58595b;
 	font-size: 14px;
 	font-weight: 500;
+	margin-bottom: 8px;
 }
 #container-membros .row .col img {
 	height: auto;
@@ -522,4 +523,17 @@ width:  300px;
 #container-membros .row .col img:hover {
 	opacity: 0.8;
 	transition: opacity 0.5s;
+}
+
+.svg-membros {
+	width: 1em;
+	height: 1em;
+	font-size: 30px; 
+	opacity: 0.7;
+	transition: all 0.3s ease-in-out;
+}
+.svg-membros:hover {
+	opacity: 1;
+	transition: opacity 0.3s;
+	transform: scale(1.1);
 }
