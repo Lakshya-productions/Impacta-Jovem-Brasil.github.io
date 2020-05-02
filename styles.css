@@ -492,3 +492,30 @@ width:  300px;
   width: 100%;
   height: 100%;
 }
+
+/*---------------------------- MEMBROS -------------------------*/
+
+#container-membros .row .col {
+	text-align: center;
+	justify-content: center;
+	padding: 0 10px;
+	line-height: 1;
+}
+#container-membros .row .col h4 {
+	padding-top: 10px;
+	font-size: 24px;
+}
+#container-membros .row .col p {
+	color: #58595b;
+	font-size: 14px;
+	font-weight: 500;
+}
+#container-membros .row .col img {
+	height: auto;
+	width: 150px;
+	border-radius: 5px;
+}
+#container-membros .row .col img:hover {
+	opacity: 0.8;
+	transition: opacity 0.5s;
+}
