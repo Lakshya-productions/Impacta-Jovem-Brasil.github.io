@@ -116,6 +116,12 @@ h1 {
 	color: grey;
 	cursor: pointer;
 }
+.svg-icon {
+	transition: all 0.3s ease-in-out;
+}
+.svg-icon:hover {
+	transform: scale(1.2);
+}
 #blacknavbar li a .svg-icon { 
 	opacity: 0.3;
 }
