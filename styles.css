@@ -370,18 +370,6 @@ section span.strong-line {
 	}
 }
 
-/*                 Projetos - main page                      */
-@media (min-width: 576px){
-	.jumbotron {
-	    padding: 2rem 2rem;
-	}
-}
-@media (max-width: 767px){
-	.row #card {
-	margin-bottom: 4rem;
-    }
-}
-
 
 
 
