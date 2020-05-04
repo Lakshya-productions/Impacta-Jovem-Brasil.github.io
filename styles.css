@@ -227,6 +227,15 @@ h1 {
 
 
 
+/*------------------- OWL -----------------*/
+.owl-carousel {
+	margin-top: 115px;
+}
+@media (max-width: 767px) {
+	.owl-carousel {
+		margin-top: 100px;
+	}
+}
 
 
 
