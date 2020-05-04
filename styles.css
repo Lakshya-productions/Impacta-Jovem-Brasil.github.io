@@ -185,7 +185,7 @@ h1 {
     outline: none;
     box-shadow: none;
     border: none;
-    background-color: #e5e5e5;
+    background-color: #3e8914;
     transition: background-color 0.25s ease-in-out;
 }
 
@@ -257,7 +257,7 @@ section .intro h2 {
 
 
 
-/*---------------------------------  DIVS  ---------------------------------*/
+/*---------------------------------  SOBRE & PROJETOS  ---------------------------------*/
 
 /*                  Sobre | Projetos              */
 
@@ -399,7 +399,7 @@ section.footer-text a:hover {
 
 
 
-
+/*--------------------------------------------------------------------------------------------------------*/
 
 
 
@@ -476,36 +476,6 @@ width:  300px;
 .section-newsletter span.yellow {
 	color: #cc5803;
 }
-
-
-
-
-/*--------------------------- ARTIGOS --------------------------*/
-#artigos {
-	margin-bottom: 100px;
-}
-#artigos p {
-	font-family: Segoe UI,Arial,sans-serif;
-	font-size: 17px;
-	font-weight: 500;
-	line-height: 1.5;
-	text-align: left;
-	color: #37392e;
-}
-#artigos a {
-	font-weight: 600;
-	color: #517a00;
-}
-#artigos a:hover {
-	text-decoration: none;
-	color: black;
-	transition: color 0.25s ease-in-out;
-}
-
-
-
-
-
 
 
 /*----------------------------------------------------------------------------------------------------------------*/
