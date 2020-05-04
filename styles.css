@@ -372,6 +372,9 @@ section span.strong-line {
 
 
 /*------------------------------------------ PROJETOS ----------------------------------*/
+.card {
+	border: none;
+}
 @media (max-width: 768px) {
 	.card {
 		margin-bottom: 50px;
