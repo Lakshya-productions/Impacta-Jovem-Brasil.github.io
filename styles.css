@@ -234,9 +234,9 @@ h1 {
 .owl-carousel {
 	margin-top: 115px;
 }
-@media (max-width: 767px) {
+@media (max-width: 600px) {
 	.owl-carousel {
-		margin-top: 105px;
+		margin-top: 108px;
 	}
 }
 
