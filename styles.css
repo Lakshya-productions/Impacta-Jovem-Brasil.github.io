@@ -228,6 +228,9 @@ h1 {
 
 
 /*------------------- OWL -----------------*/
+.owl-theme .owl-dots .owl-dot {
+    outline: none;
+}
 .owl-carousel {
 	margin-top: 115px;
 }
