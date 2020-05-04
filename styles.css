@@ -490,10 +490,6 @@ width:  300px;
 
 
 /*---------------------------- FAQ -------------------------*/
-#container-FAQ section p.question {
-	font-size: 20px;
-	font-weight: 900;
-}
 
 #container-FAQ section p.answer {
 	color: #58595b;
