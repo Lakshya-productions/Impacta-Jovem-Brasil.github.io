@@ -371,8 +371,12 @@ section span.strong-line {
 }
 
 
-
-
+/*------------------------------------------ PROJETOS ----------------------------------*/
+@media (max-width: 768px) {
+	.card {
+		margin-bottom: 50px;
+	}
+}
 
 
 
