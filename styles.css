@@ -349,8 +349,19 @@ section span.strong-line {
 }
 
 /*               Images            */
-
+.wallpaper {
+  position: relative;
+}
 .img-fluid {
+  width: 100%;
+}
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+.img-right {
   border-radius: 5px;
   width: 50%;
   float: right;
