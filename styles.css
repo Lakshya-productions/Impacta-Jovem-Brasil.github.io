@@ -340,7 +340,7 @@ section span.strong-line {
 }
 
 @media (max-width: 768px) {
-	.img-fluid {
+	.img-right {
 		float: none;
 		width: 100%;
 		margin: 0 0 10px 0;
