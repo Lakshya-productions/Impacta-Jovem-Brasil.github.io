@@ -330,6 +330,7 @@ section span.strong-line {
     top: 45%;
     left: 0;
     width: 100%;
+    color: white;
 }
 .img-right {
   border-radius: 5px;
