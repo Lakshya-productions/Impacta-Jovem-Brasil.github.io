@@ -289,9 +289,6 @@ section span.strong-line {
 
 /*            text + images          */
 
-/* I > T:  Margin-bottom = (I - T) + 50
-   T > I:  Margin-bottom = 50 - (T - I)   (T-I) > 50 -> M=50
-*/
 /* Sobre */
 #about1 {
 	margin-bottom: 50px;
@@ -305,21 +302,7 @@ section span.strong-line {
 #about4 {
 	margin-bottom: 32px;
 }
-/* Projetos */
-#equipe {
-	margin-bottom: 50px;
-	}
-#mentorias  {
-	margin-bottom: 34px;
-}
-#acoes {
-	margin-bottom: 203px;
-}
-#oportunidades {
-	margin-bottom: 180px;
-}
 
-/*               Media  (Sobre e Projetos)    */
 @media (min-width: 992px) {
 	#about1 {
 	margin-bottom: 50px;
@@ -332,19 +315,6 @@ section span.strong-line {
 	}
 	#about4 {
 		margin-bottom: 32px;
-	}
-	
-	#equipe {
-	margin-bottom: 50px;
-	}
-	#mentorias  {
-		margin-bottom: 34.5px;
-	}
-	#acoes {
-		margin-bottom: 203px;
-	}
-	#oportunidades {
-		margin-bottom: 180px;
 	}
 }
 
@@ -368,7 +338,6 @@ section span.strong-line {
   margin-left: 5px;
 }
 
-/*     Media Sobre     */
 @media (max-width: 768px) {
 	.img-fluid {
 		float: none;
