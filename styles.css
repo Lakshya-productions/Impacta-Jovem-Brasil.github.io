@@ -327,11 +327,17 @@ section span.strong-line {
 }
 .caption {
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 0;
     width: 100%;
     color: white;
 }
+@media (max-width: 768px) {
+  .img-fluid {
+    height: 30vh;
+  }
+}
+
 .img-right {
   border-radius: 5px;
   width: 50%;
