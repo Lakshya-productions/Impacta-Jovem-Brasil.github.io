@@ -319,6 +319,9 @@ section span.strong-line {
 }
 
 /*               Images            */
+#about div {
+  margin-bottom: 50px;
+}
 .wallpaper {
   position: relative;
 }
