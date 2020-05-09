@@ -322,6 +322,11 @@ section span.strong-line {
 #about div {
   margin-bottom: 50px;
 }
+#about section p {
+  font-size: 22px;
+  color: dimgrey;
+  font-weight: normal;
+}
 .wallpaper {
   position: relative;
 }
@@ -338,6 +343,14 @@ section span.strong-line {
 @media (max-width: 768px) {
   .img-fluid {
     height: 30vh;
+  }
+  #about section p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 546px) {
+  #about section p {
+    font-size: 14px;
   }
 }
 
