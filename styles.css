@@ -314,6 +314,33 @@ section span.strong-line {
     width: 100%;
     color: white;
 }
+
+@media (min-width: 320px) {
+  #intro h1 {
+    font-size: 38px;
+  }
+}
+@media (min-width: 420px) {
+  #intro h1 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 546px) {
+  #intro h1 {
+    font-size: 54px;
+  }
+}
+@media (min-width: 768px) {
+  #intro h1 {
+    font-size: 68px;
+  }
+}
+@media (min-width: 992px) {
+  #intro h1 {
+    font-size: 80px;
+  }
+}
+
 .caption h1 {
   font-size: 56px;
 }
