@@ -285,28 +285,10 @@ section span.strong-line {
 #about1 {
 	margin-bottom: 50px;
 }
-#about2 {
-	margin-bottom: 32px;
-}
-#about3 {
-	margin-bottom: 9px;
-}
-#about4 {
-	margin-bottom: 32px;
-}
 
 @media (min-width: 992px) {
 	#about1 {
 	margin-bottom: 50px;
-	}
-	#about2 {
-		margin-bottom: 32px;
-	}
-	#about3 {
-		margin-bottom: 9px;
-	}
-	#about4 {
-		margin-bottom: 32px;
 	}
 }
 
@@ -332,10 +314,15 @@ section span.strong-line {
     width: 100%;
     color: white;
 }
-@media (max-width: 768px) {
-  .img-fluid {
-    height: 30vh;
+.caption h1 {
+  font-size: 56px;
+}
+@media (min-width: 992px) {
+  #intro h1 {
+    font-size: 80px;
   }
+}
+@media (max-width: 768px) {
   #about section p {
     font-size: 18px;
   }
