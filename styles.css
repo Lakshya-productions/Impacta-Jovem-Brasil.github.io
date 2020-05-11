@@ -221,14 +221,6 @@ h1 {
 .owl-theme .owl-dots .owl-dot {
     outline: none;
 }
-.owl-carousel {
-	margin-top: 115px;
-}
-@media (max-width: 600px) {
-	.owl-carousel {
-		margin-top: 108px;
-	}
-}
 
 
 
