@@ -16,11 +16,29 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="lightbox/simple-lightbox.css">
+	<style>
+		* {
+            box-sizing: border-box;
+        }
+        .container .gallery a img {
+            float: left;
+            width: 25%;
+            height: auto;
+            border: 2px solid #fff;
+            -webkit-transition: -webkit-transform .15s ease;
+            -moz-transition: -moz-transform .15s ease;
+            -o-transition: -o-transform .15s ease;
+            -ms-transition: -ms-transform .15s ease;
+            transition: transform .15s ease;
+            position: relative;
+        }
+		.clear {
+            clear: both;
+        }
+	</style>
 
-    <script src="app.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 	
 </head>
 
@@ -91,7 +109,7 @@
 							<a href="./membros.html" class="nav-link ">MEMBROS</a>
 						</li>
 						<li class="nav-item mr-4">
-							<a href="./contato.html" class="nav-link ">CONTATO</a>
+							<a href="./galeria.html" class="nav-link ">GALERIA</a>
 						</li>
 					</ul>
 				</div>
@@ -104,20 +122,83 @@
 
 
     
-    <div id="contato" style="position: relative;">
+    <div id="galeria" style="position: relative;">
 
 
 	<div id="title-contato" class="container" style="margin-bottom: 40px; margin-top: 0px;">
 		<br></br>
-		<h1 style="text-align: center; font-size: 48px;">CONTATO</h1>
+		<h1 style="text-align: center; font-size: 48px;">GALERIA</h1>
+		<p style="text-align: center;">Aqui estão fotos dos nossos projetos voluntários.. (descrição) </p>
 	</div>
 
-	<div id="container-contato">
-		<div class="row">
-			<div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"></div>
-			<div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"></div>
-		</div>
-	</div>
+	<div id="container-galeria" class="container">
+    
+			<div class="gallery">
+				<!--<a href="Imagens/Fotos/.jpg"><img src="Imagens/Fotos/.jpg" alt="" title=""/></a>-->
+			    <a href="Imagens/Fotos/fundadores.jpg" class="big"><img src="Imagens/Fotos/fundadores.jpg" alt="" title="Fundadores do Impacta" /></a>
+
+			    <a href="Imagens/Fotos/Cópia de 21318817_504209173260992_1897325001195432124_o.jpg" class="big"><img src="Imagens/Fotos/Cópia de 21318817_504209173260992_1897325001195432124_o.jpg" alt="" title="" /></a>
+
+			    <a href="Imagens/Fotos/Cópia de 21768752_512927912389118_1853957093270367767_o.jpg"><img src="Imagens/Fotos/Cópia de 21768752_512927912389118_1853957093270367767_o.jpg" alt="" title=""/></a>
+
+                <a href="Imagens/Fotos/Cópia de 22219670_517373448611231_5149094521351716199_o.jpg"><img src="Imagens/Fotos/Cópia de 22219670_517373448611231_5149094521351716199_o.jpg" alt="" title=""/></a>
+
+			    <div class="clear"></div>
+			</div>
+
+			<div class="gallery">
+				<a href="Imagens/Fotos/Cópia de 22383944_520103765004866_2575147613025122641_o.jpg"><img src="Imagens/Fotos/Cópia de 22383944_520103765004866_2575147613025122641_o.jpg" alt="" title=""/></a>
+
+				<a href="Imagens/Fotos/Cópia de 27021309_568022433546332_5872920815833483232_o.jpg"><img src="Imagens/Fotos/Cópia de 27021309_568022433546332_5872920815833483232_o.jpg" alt="" title=""/></a>
+
+                <a href="Imagens/Fotos/Cópia de 23593825_535272540154655_2083027259898212590_o.jpg"><img src="Imagens/Fotos/Cópia de 23593825_535272540154655_2083027259898212590_o.jpg" alt="" title=""/></a>
+
+                <a href="Imagens/Fotos/Cópia de 27021347_568022483546327_3263221677705933038_o.jpg"><img src="Imagens/Fotos/Cópia de 27021347_568022483546327_3263221677705933038_o.jpg" alt="" title=""/></a>
+
+                <div class="clear"></div>
+			</div>
+
+			<div class="gallery">
+
+				<a href="Imagens/Fotos/Cópia de IMG-20180829-WA0016.jpg"><img src="Imagens/Fotos/Cópia de IMG-20180829-WA0016.jpg" alt="" title=""/></a>
+
+				<a href="Imagens/Fotos/Cópia de IMG-20180829-WA0017.jpg"><img src="Imagens/Fotos/Cópia de IMG-20180829-WA0017.jpg" alt="" title=""/></a>
+
+				<a href="Imagens/Fotos/Cópia de IMG-20180829-WA0030.jpg"><img src="Imagens/Fotos/Cópia de IMG-20180829-WA0030.jpg" alt="" title=""/></a>
+
+				<a href="Imagens/Fotos/Cópia de IMG-20180829-WA0032.jpg"><img src="Imagens/Fotos/Cópia de IMG-20180829-WA0032.jpg" alt="" title=""/></a>
+
+				<div class="clear"></div>
+			</div>
+
+			<div class="gallery">
+				<a href="Imagens/Fotos/dc segundo dia-40.jpg"><img src="Imagens/Fotos/dc segundo dia-40.jpg" alt="" title=""/></a>
+
+                <a href="Imagens/Fotos/IMG-20180920-WA0026 - Alexia Souza.jpg"><img src="Imagens/Fotos/IMG-20180920-WA0026 - Alexia Souza.jpg" alt="" title=""/></a>
+
+                <a href="Imagens/Fotos/Cópia de IMG_E2604[1] - Felipe Costa.jpg"><img src="Imagens/Fotos/Cópia de IMG_E2604[1] - Felipe Costa.jpg" alt="" title="" style="width: 30vh; height: 35vh"/></a>
+
+                <a href="Imagens/Fotos/Cópia de WRXL0671[1] - Felipe Costa.jpg"><img src="Imagens/Fotos/Cópia de WRXL0671[1] - Felipe Costa.jpg" alt="" title=""/></a>
+
+				<div class="clear"></div>
+			</div>
+
+			<div class="gallery">
+				<a href="Imagens/Fotos/Cópia de IMG-20180628-WA0029.jpg"><img src="Imagens/Fotos/Cópia de IMG-20180628-WA0029.jpg" alt="" title="" style="width: 28vh; height: 35vh"/></a>
+
+				<a href="Imagens/Fotos/Cópia de 21950637_512083502473559_663275043890920719_o.jpg"><img src="Imagens/Fotos/Cópia de 21950637_512083502473559_663275043890920719_o.jpg" alt="" title=""/></a>
+
+				<a href="Imagens/Fotos/Cópia de orgulho2.jpg"><img src="Imagens/Fotos/Cópia de orgulho2.jpg" alt="" title=""/></a>
+
+				<a href="Imagens/Fotos/Cópia de orgulho.jpg"><img src="Imagens/Fotos/Cópia de orgulho.jpg" alt="" title=""/></a>
+
+				<div class="clear"></div>
+			</div>
+
+			<div class="gallery">
+				<a href="Imagens/Fotos/IMG-20180923-WA0038 - Alexia Souza.jpg"><img src="Imagens/Fotos/IMG-20180923-WA0038 - Alexia Souza.jpg" alt="" title=""/></a>
+				<div class="clear"></div>
+			</div>
 
 	</div>
 
@@ -148,9 +229,9 @@
 				                        Hogwarts</a></p>
 				    </div>
 				    <div class="col-sm text-center">
-				      <p><a href="link">Galeria</a></p>
-				      <p><a href="link">Doar</a></p>
-				      <p>info@IJB.org</p>
+				      <p><a href="link">Contato</a></p>
+				      <p><a href="link">Medium</a></p>
+				      <p>impactajovembrasil@gmail.com</p>
 				    </div>
 				    <div class="col-sm text-center">
 				      <h3 style="font-size: 22px;">NEWSLETTER <span style="margin-left: 5px;"><svg class="svg-icon" viewBox="0 0 22 22">
@@ -172,6 +253,12 @@
 
 
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<script src="lightbox/simple-lightbox.js"></script>
+<script>
+    (function() {
+        var $gallery = new SimpleLightbox('.gallery a', {});
+    })();
+</script>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -182,35 +269,6 @@ crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 crossorigin="anonymous"></script>
-
-<script src="owlcarousel/owl.carousel.min.js"></script>
-
-
-<script>
-    jQuery(document).ready(function($) {
-    	$('.owl-carousel').owlCarousel({
-	    items:1,    /*items on screen*/
-	    margin:0,
-	    autoHeight:true
-	    });
-});    
-</script>
-
-<script>var owl = $('.owl-carousel');
-owl.owlCarousel({
-    items:1,
-    loop:true,
-    margin:0,
-    autoplay:true,
-    autoplayTimeout:9000,
-    autoplaySpeed: 4000,
-    autoplayHoverPause:true,
-});</script>
-
-<script>$(document).ready(function(){
-		  $(".owl-carousel").owlCarousel();
-		});
-</script>
 
 </body>
 
