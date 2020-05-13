@@ -644,6 +644,12 @@ width:  300px;
 	transform: scale(1.1);
 }
 
+/*---------------------------- GALERIA -------------------------*/
+#container-galeria img:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
 /*-------------------TIMELINE------------*/
 
 *,
