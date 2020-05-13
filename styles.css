@@ -650,6 +650,11 @@ width:  300px;
   transition: opacity 0.3s;
 }
 
+.gallery #fix-img img {
+	height: 15%; 
+	width: 15%;
+}
+
 /*-------------------TIMELINE------------*/
 
 *,
