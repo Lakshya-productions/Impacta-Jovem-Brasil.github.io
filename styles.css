@@ -649,36 +649,6 @@ width:  300px;
   opacity: 0.8;
   transition: opacity 0.3s;
 }
-@media (max-width: 300px) {
-	.gallery #fix-img img {
-		height: 60px; 
-		width: 50px;
-	}
-}
-@media (max-width: 400px) {
-	.gallery #fix-img img {
-		height: 80px; 
-		width: 60px;
-	}
-}
-@media (max-width: 500px) {
-	.gallery #fix-img img {
-		height: 100px; 
-		width: 80px;
-	}
-}
-@media (max-width: 992px) {
-	.gallery #fix-img img {
-		height: 150px; 
-		width: 130px;
-	}
-}
-@media (max-width: 1200px) {
-	.gallery #fix-img img {
-		height: 200px; 
-		width: 150px;
-	}
-}
 
 /*-------------------TIMELINE------------*/
 
