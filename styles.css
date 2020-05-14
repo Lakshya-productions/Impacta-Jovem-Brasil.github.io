@@ -694,7 +694,7 @@ width:  300px;
 #aplicar p:hover, #aplicar p:active {
   color: white;
   background-color: #00b4d8;
-  transition: background-color 0.3s;
+  transition: background-color 0.1s;
   text-decoration: none;
 }
 
