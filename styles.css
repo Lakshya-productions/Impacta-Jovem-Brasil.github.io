@@ -651,6 +651,12 @@ width:  300px;
 	 object-fit: cover;
   }
 }
+@media (max-width: 460px) {
+  .wallpaper img {
+  height: 300px;
+  object-fit: cover;
+  }
+}
 .caption h1 {
   font-size: 64px;
 }
