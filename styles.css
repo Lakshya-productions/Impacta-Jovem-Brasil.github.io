@@ -1,5 +1,16 @@
 /* -------------------- FONTS --------------------- */
-
+/* Airport */ /* Logo Title */
+@font-face {
+    font-family: 'Airport';
+    src: url('Airport.eot');
+    src: local('Airport'),
+        url('Airport.eot?#iefix') format('embedded-opentype'),
+        url('Airport.woff2') format('woff2'),
+        url('Airport.woff') format('woff'),
+        url('Airport.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 /* bebas-neue-regular - latin */   /* Titles */
 @font-face {
   font-family: 'Bebas Neue';
@@ -126,6 +137,16 @@ h1 {
 /*                White Navbar          */
 .navbar-brand{
   font-size: 36px;
+  font-family: 'Airport'; 
+  font-weight: normal; 
+  font-style: normal;
+}
+.navbar-brand span.blue {
+  color: #055673;
+}
+.navbar-brand span.yellow {
+  font-size: 24px;
+  color: #daaa1b;
 }
 .nav-item {
 	font-weight: 300;
@@ -226,6 +247,9 @@ h1 {
 
 
 /*------------------- INTRO -----------------*/
+.caption h1 {
+  font-family: 'Airport'; font-weight: normal; font-style: normal;
+}
 section .intro h2 {
 	font-size: 60px;
 	font-weight: 600;
