@@ -493,6 +493,24 @@ section.footer-text a:hover {
 	text-decoration: none;
 	transition: color 0.5s;
 }
+#footer .svg-membros {
+  fill: white; 
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+}
+#footer .svg-icon { 
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+}
+#footer .nav-link .svg-icon:hover {
+  opacity: 0.5;
+  transition: opacity 0.3s;
+  transform: scale(1.2);
+}
+#footer .nav-link {
+  padding: 0;
+  margin-right: 10px;
+}
 
 
 
