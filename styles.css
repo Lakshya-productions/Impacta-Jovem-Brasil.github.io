@@ -238,6 +238,20 @@ h1 {
 
 
 
+
+
+/*------------------ TITLES ----------------*/
+#title-FAQ h1, #title-membros h1, #title-contato h1 {
+  font-family: 'Airport'; 
+  font-weight: normal; 
+  font-style: normal;
+}
+
+
+
+
+
+
 /*------------------- OWL -----------------*/
 .owl-theme .owl-dots .owl-dot {
     outline: none;
