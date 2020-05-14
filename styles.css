@@ -706,6 +706,24 @@ width:  300px;
   transition: opacity 0.3s;
 }
 
+/*---------------------------- CONTATO -------------------------*/
+#contato .container p a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-------------------TIMELINE------------*/
 
 *,
