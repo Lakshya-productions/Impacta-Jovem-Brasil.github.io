@@ -207,6 +207,9 @@ h1 {
 	.navbar-brand{
 		font-size: 30px;
 	}
+  .navbar-brand span.yellow {
+    font-size: 20px;
+  }
 	.navbar-toggler-icon{
 		width: 30px;
 		height: 25px;
@@ -217,6 +220,9 @@ h1 {
 	.navbar-brand{
 		font-size: 28px;
 	}
+  .navbar-brand span.yellow {
+    font-size: 20px;
+  }
 	.navbar-toggler-icon{
 		width: 25px;
 	}
@@ -226,6 +232,9 @@ h1 {
 	.navbar-brand{
 		font-size: 25px;
 	}
+  .navbar-brand span.yellow {
+    font-size: 17px;
+  }
 	.navbar-brand img{
 		width: 45px;
 		padding-right: 5px;
@@ -234,7 +243,6 @@ h1 {
 		width: 24px;
 	}
 }
-
 
 
 
