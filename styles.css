@@ -423,9 +423,20 @@ section span.strong-line {
 
 /*-------------cards intro--------------------*/
 
+#intro-cards-background{
+  background-color: #056673;
+  padding-bottom: 30px;
+}
+
+#botao-saiba-mais{
+  text-align: right;
+ background-color: #033f46;
+ color: black;
+}
+
 #card-container {
-  max-width: 1000px;
-  margin: 50px 0;
+  max-width: 2000px;
+  margin: 50px 0 ;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -433,11 +444,12 @@ section span.strong-line {
 
 .box {
   position: relative;
-  width: 900px;
+  width: 100%;
   height: 300px;
-  margin: 15px 0;
+  margin:  0px;
   background: #000;
   box-shadow: 0 30px 30px rgba(0,0,0,.5);
+  padding: 0px;
   
 }
 
@@ -469,7 +481,8 @@ section span.strong-line {
   left: 10%;
   width: 80%;
   height: 60px;
-  background-image: linear-gradient(to left, rgba(155, 146, 146, 0.11), rgb(247, 247, 247));
+  background-color: #daaa1bd2;
+  /*background-image: linear-gradient(to left,#daaa1b, #faf8f342);*/
   transition: 0.5s;
   overflow: hidden;
   padding: 15px;
@@ -507,9 +520,22 @@ h3 {
 }
 /*-------------cards intro--------------------*/
 
+/*---------- artigos-----------*/
+#btn-news {
+  text-align: center;
+}
 
+#news-section{
+  background-color:#056673;
+}
+
+/*---------- artigos-----------*/
 
 /*------------------------------------------ PROJETOS ----------------------------------*/
+
+#projetos-section{
+background-color: #daaa1b;
+}
 .card {
 	border: none;
 }
@@ -518,6 +544,47 @@ h3 {
 		margin-bottom: 50px;
 	}
 }
+
+
+
+
+/*------------------------------------------ PROJETOS ----------------------------------*/
+
+  
+  .overlay {
+    width: 100%;
+    height: 500px;
+    background: url(./Imagens/Fotos/projetos.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .overlay:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  
+  #projetos-textos{
+    text-align: center;
+    padding-top: 200px;
+    color: #fff;
+  }
+
+  #botao-projetos{
+    background-color: #05667398;
+    color: black;
+    text-align: center;
+  }
+  
+  /*------------------------------------------ PROJETOS ----------------------------------*/
 
 
 
@@ -776,35 +843,13 @@ width:  300px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*-------------------TIMELINE------------*/
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
- /* INTRO SECTION
+ /* TIMELINE INTRO
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #timeline-intro {
-  background: rgb(54, 54, 54);
+  background: #daaa1b;
   padding: 30px 0;
-  color: white;
+  color: black;
 }
 
 #timeline-container {
@@ -819,6 +864,8 @@ width:  300px;
 }*/
 
 
+
+
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -827,7 +874,7 @@ width:  300px;
 }
 
 .timeline ul {
-  background-image: linear-gradient( rgb(255, 255, 255), rgb(173, 167, 167));
+  /*background-image: linear-gradient( rgb(255, 255, 255), rgb(173, 167, 167)); */
   padding: 30px 0;
 }
 
@@ -837,7 +884,7 @@ width:  300px;
   width: 6px;
   margin: 0 auto;
   padding-top: 50px;
-  background: rgb(54, 54, 54);
+  background: #033f46;
 }
 
 .timeline ul li::after {
@@ -857,8 +904,13 @@ width:  300px;
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #28a745;
+  background: #0d5900;
+  color: #021f22;
   box-shadow: 0 30px 30px rgba(0,0,0,.5);
+}
+
+.timeline ul li div time{
+  color: #daaa1b;
 }
 
 .timeline ul li div::before {
@@ -877,7 +929,7 @@ width:  300px;
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #28a745 transparent transparent;
+  border-color: transparent #0d5900 transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -887,7 +939,7 @@ width:  300px;
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #28a745;
+  border-color: transparent transparent transparent #0d5900;
 }
 
 time {
@@ -906,7 +958,7 @@ time {
 }
 
 .timeline ul li.in-view::after {
-  background: #28a745;
+  background: #033f46;
 }
 
 .timeline ul li div {
@@ -956,53 +1008,20 @@ time {
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #28a745 transparent transparent;
+    border-color: transparent #0d5900 transparent transparent;
   }
 }
 
 /*---------------------------------TIMELINE END---------------------*/
 
-/*--------------------------- DEPOIMENTOS STYLE -----------------------------*/
-  .heading {
-    text-align: center;
-    color: #c0bebe;
-    font-size: 30px;
-    font-weight: 700;
-    position: relative;
-    margin-bottom: 5px;
-    text-transform: uppercase;
-	z-index: 999;
-	
-}
-.white-heading{
-    color: #ffffff;
-}
-.heading:after {
-    content: ' ';
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    height: 40px;
-    width: 180px;
-    border-radius: 4px;
-    transform: translateX(-50%);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.white-heading:after {
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
-.heading span {
-    font-size: 18px;
-    display: block;
-    font-weight: 500;
-}
-.white-heading span {
-    color: #ffffff;
-}
-/*-----Testimonial-------*/
+
+
+
+
+
+
+/*-----Testimonial-------
 
 .testimonial:after {
     position: absolute;
@@ -1015,12 +1034,13 @@ time {
     height: 100px;
     float: left;
     z-index: 99;
-}
+}*/
 
 .testimonial {
     min-height: 375px;
     position: relative;
-    background: url(images/trees.png);
+    background-color: #daaa1b;
+    /*background: url(images/trees.png);*/
     padding-top: 50px;
     padding-bottom: 50px;
     background-position: center;
@@ -1194,7 +1214,6 @@ time {
     height: 35px;
 }
 
-/*--------------------------- DEPOIMENTOS STYLE END-----------------------------*/
 
 
   
