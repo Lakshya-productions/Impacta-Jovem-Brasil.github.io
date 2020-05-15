@@ -836,6 +836,33 @@ width:  300px;
   opacity: 0.8;
   transition: opacity 0.3s;
 }
+* { box-sizing: border-box; } 
+.container .gallery a img { 
+    float: left;  
+    /*width: 25%; 
+    height: auto;*/
+    width: 25%;
+    height: 270px;
+    object-fit: cover;
+
+    border: 2px solid #fff; 
+    -webkit-transition: -webkit-transform .15s ease;  
+    -moz-transition: -moz-transform .15s ease;  
+    -o-transition: -o-transform .15s ease;  
+    -ms-transition: -ms-transform .15s ease;  
+    transition: transform .15s ease;  
+    position: relative; 
+} 
+.clear {  
+      clear: both;  
+}
+@media (max-width: 768px) {
+  .container .gallery a img {
+    width: 50%;
+    height: 270px;
+    object-fit: cover;
+  }
+}
 
 /*---------------------------- CONTATO -------------------------*/
 #contato .container p a {
