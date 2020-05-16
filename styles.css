@@ -593,6 +593,7 @@ background-color: #daaa1b;
   }
   #saiba-mais a {
     text-decoration: none;
+    cursor: pointer;
   }
   .button-saiba {
     padding: 1.5em 2em;
