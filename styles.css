@@ -579,12 +579,6 @@ background-color: #daaa1b;
     padding-top: 200px;
     color: #fff;
   }
-
-  #botao-projetos{
-    background-color: #05667398;
-    color: black;
-    text-align: center;
-  }
   
   #saiba-mais .row div {
     text-align: center;
@@ -611,6 +605,33 @@ background-color: #daaa1b;
   background-color: #ffbe0b;
   transition: background-color 0.5s ease;
   text-decoration: none;
+  }
+
+  #projetos-textos .row div {
+    text-align: center;
+    padding: 0 6em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2em;
+  }
+  #projetos-textos a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .button-projetos {
+    padding: 1.5em 2em;
+    color: #00b4d8;
+    border: 2px solid #00b4d8;
+    border-radius: 5px;
+  }
+  #projetos-textos h4 {
+    line-height: 0;
+  }
+  #projetos-textos h4:hover, #projetos-textos h4:active {
+    color: black;
+    background-color: #00b4d8;
+    transition: background-color 0.5s ease;
+    text-decoration: none;
   }
   
   /*------------------------------------------ PROJETOS ----------------------------------*/
