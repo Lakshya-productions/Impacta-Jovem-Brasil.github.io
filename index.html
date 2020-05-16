@@ -24,10 +24,9 @@
 
 	<script src="app.js"></script>
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-
 </head>
 
-<body>
+<body id="overlay" class="cover blur-in">
 	<header>
 		<nav class="fixed-top" style="position: relative;">
 			<!--  Black Navbar  -->
@@ -198,7 +197,7 @@
 	
 			<div id="saiba-mais" class="container">
 				<div class="row">
-					<div class="col col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+					<div class="col col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 						<a data-toggle="collapse"
 						data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><h4 class="button-saiba">Saiba Mais</h4></a>
 					</div>
@@ -317,21 +316,14 @@
 	
 <!-----------------PROJETOS---------------------->
 		<section class="overlay">
-
 		<div class="wallpaper text-center">
 			<div id="projetos-textos" class="caption"><h1>NOSSOS PROJETOS</h1>
 				<p>Conheça mais sobre nosso trabalho</p>
-
-				<div class="row">
-					<div class="col col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12">
-						<a href="projetos.html"><h4 class="button-projetos">Clique aqui</h4></a>
-					</div>
-				</div> 
-
+				<a href="projetos.html" id="botao-projetos" class="btn btn-primary"><h5>Clique aqui</h5></a> </div>
+				</button>
 			</div>
 		</div>
-
-                </section>
+</section>
 <!-----------------PROJETOS---------------------->
     
 
@@ -458,10 +450,41 @@
 		</section>
 		</footer>
 
+<!-----------POP-UP--------->
+<div class="popup-wrap">
+	<div class="popup-return">
+	  <div class="popup-header">
+		<h2><img style="width: 30px;padding-right: 4px;" src="https://img.icons8.com/ios-filled/50/000000/email-open.png"/></a>Newsletter exclusiva</h2>   
+	  </div>
+	  <div class="popup-description">
+		  <p>Quer receber materiais e dicas exclusivas do 
+			  Impacta Jovem Brasil? 
+			  Inscreva-se na nossa Newsletter</p>
+	  </div>
+	  <!--<div class="popup-data clearfix">
+		  <label for="email">E-Post</label>
+		  <input type="email" value email="email">    
+	  </div> -->
+	  <div class="send-button">
+		<a href="./newsletter.html"><button class="btn btn-success"
+			style="border-radius: 2px;">Inscreva-se</button></a>
+	  </div> 
+	  <div class="close">
+		  <a class="boxclose">X</a>
+	  </div>    
+	</div>
+</div>
+
+</div> 
+
+<script>$( ".close" ).click(function() {
+	$( ".popup-wrap" ).hide();
+  });
+  </script>
+<!-----------POP-UP--------->
 
 
-
-
+</script>
 		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
