@@ -1319,11 +1319,13 @@ time {
   left: 0;
   right: 0;
   margin: auto;
-  width: 430px;
-  height: 180px;
+  width: 80%;
+  height: 200px;
   background-color: #fdfdfd; 
   padding: 15px;
 }
+
+
 
 
 /**
@@ -1382,7 +1384,6 @@ h2 {
 
 .send-button {
   margin-top: 10px;
- 
   text-align: center;
 }
 
