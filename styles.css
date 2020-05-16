@@ -584,6 +584,32 @@ background-color: #daaa1b;
     text-align: center;
   }
   
+  #saiba-mais .row div {
+    text-align: center;
+    padding: 0 4em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2em;
+  }
+  #saiba-mais a {
+    text-decoration: none;
+  }
+  .button-saiba {
+    padding: 1.5em 2em;
+    color: #ffbe0b;
+    border: 2px solid #ffbe0b;
+    border-radius: 5px;
+  }
+  #saiba-mais h4 {
+    line-height: 0;
+  }
+  #saiba-mais h4:hover, #saiba-mais h4:active {
+  color: black;
+  background-color: #ffbe0b;
+  transition: background-color 0.5s ease;
+  text-decoration: none;
+  }
+  
   /*------------------------------------------ PROJETOS ----------------------------------*/
 
 
