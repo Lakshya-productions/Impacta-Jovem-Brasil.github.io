@@ -24,9 +24,10 @@
 
 	<script src="app.js"></script>
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+
 </head>
 
-<body id="overlay" class="cover blur-in">
+<body>
 	<header>
 		<nav class="fixed-top" style="position: relative;">
 			<!--  Black Navbar  -->
@@ -197,9 +198,9 @@
 	
 			<div id="saiba-mais" class="container">
 				<div class="row">
-					<div class="col col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+					<div class="col col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 						<a data-toggle="collapse"
-						data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><h4 class="button-saiba">Saiba Mais</h4></a>
+						data-target="#collapseExample" id="#botao-saiba-mais" aria-expanded="false" aria-controls="collapseExample"><h4 class="button-saiba">Saiba Mais</h4></a>
 					</div>
 			        </div>
 			</div>
@@ -298,40 +299,33 @@
 
 
 
-		<!-- ARTIGOS -->
-	    <!--
+		<!-- ARTIGOS 
+	    
 	    <section>
 			<div class="row container">
 				<div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 					<h1>Artigos</h1>
 					<iframe src="https://feed.mikle.com/widget/v2/129688/?preloader-text=Loading" height="304px" width="100%" class="fw-iframe" scrolling="no" frameborder="0"></iframe>
 				<p id="btn-news"> <a href="#"><button style="border-radius: 0px; text-align: left" class="btn btn-success">Leia
-					mais</button></a> </p>
+					mais</button></a> </p> 
 			</div>
 		</div>
 	   </section>
-           -->
-		<!-- ARTIGOS -->
+		   -->
 
 	
-                <!----------------- PROJETOS ---------------------->
+<!-----------------PROJETOS---------------------->
 		<section class="overlay">
-
-			<div class="wallpaper text-center">
-			  <div id="projetos-textos" class="caption"><h1>NOSSOS PROJETOS</h1>
-			  <p>Conheça mais sobre nosso trabalho</p>
-
-			    <div class="row">
-			      <div class="col col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12">
-				 <a href="projetos.html"><h4 class="button-projetos">Clique aqui</h4></a>
-			      </div>
-			    </div>
-			  </div>
+		<div class="wallpaper text-center">
+			<div id="projetos-textos" class="caption"><h1>NOSSOS PROJETOS</h1>
+				<p>Conheça mais sobre nosso trabalho</p>
+				<a href="projetos.html" id="botao-projetos" class="btn btn-primary"><h5>Clique aqui</h5></a>
 			</div>
+		</div>
+</section>
 
-		</section>
 
-                <!----------------- PROJETOS ---------------------->
+<!-----------------PROJETOS---------------------->
     
 
 		<!------------------------DEPOIMENTOS------------------->
@@ -457,7 +451,10 @@
 		</section>
 		</footer>
 
-<!-----------POP-UP--------->
+
+
+
+		<!-----------POP-UP--------->
 <div class="popup-wrap">
 	<div class="popup-return">
 	  <div class="popup-header">
@@ -491,7 +488,6 @@
 <!-----------POP-UP--------->
 
 
-</script>
 		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

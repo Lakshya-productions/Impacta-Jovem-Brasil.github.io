@@ -68,12 +68,10 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
 body{
 	margin: 0;
-  padding: 0;
+	padding: 0;
 }
-  
 
 h1,
 h2,
@@ -430,11 +428,6 @@ section span.strong-line {
   padding-bottom: 30px;
 }
 
-#botao-saiba-mais{
-  text-align: right;
- background-color: #033f46;
- color: black;
-}
 
 #card-container {
   max-width: 2000px;
@@ -579,6 +572,12 @@ background-color: #daaa1b;
     padding-top: 200px;
     color: #fff;
   }
+
+  #botao-projetos{
+    background-color: #05667398;
+    color: black;
+    text-align: center;
+  }
   
   #saiba-mais .row div {
     text-align: center;
@@ -605,33 +604,6 @@ background-color: #daaa1b;
   background-color: #ffbe0b;
   transition: background-color 0.5s ease;
   text-decoration: none;
-  }
-
-  #projetos-textos .row div {
-    text-align: center;
-    padding: 0 6em;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 2em;
-  }
-  #projetos-textos a {
-    text-decoration: none;
-    cursor: pointer;
-  }
-  .button-projetos {
-    padding: 1.5em 2em;
-    color: #00b4d8;
-    border: 2px solid #00b4d8;
-    border-radius: 5px;
-  }
-  #projetos-textos h4 {
-    line-height: 0;
-  }
-  #projetos-textos h4:hover, #projetos-textos h4:active {
-    color: black;
-    background-color: #00b4d8;
-    transition: background-color 0.5s ease;
-    text-decoration: none;
   }
   
   /*------------------------------------------ PROJETOS ----------------------------------*/
@@ -823,7 +795,7 @@ width:  300px;
 
 #container-FAQ section p.answer {
 	color: #58595b;
-	font-weight: normal;
+	font-weight: 900;
 }
 
 .iframe-container{
@@ -838,9 +810,27 @@ width:  300px;
   left: 0;
   width: 100%;
   height: 100%;
+
 }
 
+#botao-projetos{
+    width: 250px;
+    height: 80px;
+    background: transparent;
+    border: 3px solid #055673;
+}
 
+#botao-projetos h5{
+  text-align: center;
+  color: white;
+  padding-top: 17px;
+}
+
+#botao-projetos:hover{
+background-color: #055673;
+color: white;
+}
+/*---------------------------- PROJETOS FIM -------------------------*/
 /*---------------------------- MEMBROS -------------------------*/
 #container-membros .row .col {
 	text-align: center;
@@ -1298,7 +1288,6 @@ time {
     height: 35px;
 }
 
-
 /**
 * General style 
 */ 
@@ -1446,6 +1435,4 @@ h2 {
 .close:hover {
 color: #000;
 }
-  
-
 
