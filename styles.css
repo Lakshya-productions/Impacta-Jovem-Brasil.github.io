@@ -606,7 +606,78 @@ background-color: #daaa1b;
   text-decoration: none;
   }
   
-  /*------------------------------------------ PROJETOS ----------------------------------*/
+
+  
+  /*------------------------------------------ INSTAGRAM ----------------------------------*/
+#instagram {
+  background-image: url('https://media.giphy.com/media/xWC0BCZtkDxE869erD/giphy.gif');
+  background-size: 100% 100%;
+  /*object-fit: cover;*/
+
+  padding: 2em 0;
+  display: block;
+  /*margin-top: 2em;
+  margin-bottom: 2em;*/
+  background-color: black;
+}
+#instagram section {
+  text-align: center;
+}
+#instagram .pics {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-left: 15%;   /*media | l10rem b5 h13 w13 | l22rem */
+}
+@media (max-width: 768px) {
+  #instagram .pics {
+    /*margin: auto;*/
+    justify-content: center;
+  }
+  #instagram .pic2 { display: none; }
+  #instagram .pic3 { display: none; }
+}
+#instagram .pic1 {
+  background-color: rgb(255, 255, 255);
+  left: 13rem;
+  bottom: 8rem;
+  height: 16rem;
+  width: 14rem;
+  transform: rotate(15deg);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 16px 0px, rgba(0, 0, 0, 0.2) 0px 0px 4px 0px;
+  padding: 0.5rem 0.5rem 3rem;
+  transition: opacity 0.2s ease 0s;
+}
+#instagram .pic2 {
+  background-color: rgb(255, 255, 255);
+  bottom: 8rem;
+  height: 16rem;
+  width: 14rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 16px 0px, rgba(0, 0, 0, 0.2) 0px 0px 4px 0px;
+  left: 42rem;
+  transform: rotate(-15deg);
+  padding: 0.5rem 0.5rem 3rem;
+  transition: opacity 0.2s ease 0s;
+}
+#instagram .pic3 {
+  background-color: rgb(255, 255, 255);
+  bottom: 8rem;
+  height: 16rem;
+  width: 14rem;
+  transform: rotate(15deg);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 16px 0px, rgba(0, 0, 0, 0.2) 0px 0px 4px 0px;
+  left: 56rem;
+  padding: 0.5rem 0.5rem 3rem;
+  transition: opacity 0.2s ease 0s;
+}
+#instagram .pics a:hover {
+  opacity: 0.7;
+  transition: opacity 0.2s ease-in-out;
+}
+#instagram .pics img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 
 
