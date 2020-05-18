@@ -678,6 +678,13 @@ background-color: #daaa1b;
   height: 100%;
   object-fit: cover;
 }
+@media (max-width: 991px) {
+	#instagram .pic3 {
+		margin-left: 50%;
+		margin-bottom: 10%;
+		transform: rotate(-3deg);
+	}
+}
 
 
 
