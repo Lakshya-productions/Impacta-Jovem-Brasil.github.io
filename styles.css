@@ -610,9 +610,9 @@ background-color: #daaa1b;
   
   /*------------------------------------------ INSTAGRAM ----------------------------------*/
 #instagram {
-  /*background-image: url('https://media.giphy.com/media/xWC0BCZtkDxE869erD/giphy.gif');
-  background-size: 100% 100%;
-  object-fit: cover;*/
+  background-image: url('images/sky.jpg');
+  background-size: 100%;
+  object-fit: cover;
   padding: 2em 0;
   display: block;
   background-color: black;
