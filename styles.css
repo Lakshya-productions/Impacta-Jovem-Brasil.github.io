@@ -269,26 +269,18 @@ h1 {
 
 
 /*------------------- INTRO -----------------*/
-.caption h1 {
+#intro .caption {
+  top: 30%;
+}
+#intro .caption h1 {
   font-family: 'Airport'; font-weight: normal; font-style: normal;
+  font-size: 98px;
 }
-section .intro h2 {
-	font-size: 60px;
-	font-weight: 600;
-	font-family:'AvenirMedium',Arial,sans-serif;
-	text-transform: uppercase;
-	text-align: center;
-	width: 100%;
+@media (max-width: 768px) {
+  #intro .caption h1 { font-size: 70px; }
 }
-@media (max-width: 700px)  {
-	section .intro h2 {
-		font-size: 40px;
-	}
-}
-@media (max-width: 550px)  {
-	section .intro h2 {
-		font-size: 34px;
-	}
+@media (max-width: 560px) {
+  #intro .caption h1 { font-size: 60px; }
 }
 
 
