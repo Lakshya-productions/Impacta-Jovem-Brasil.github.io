@@ -608,7 +608,7 @@ h3 {
 }
 #instagram .pics {
   margin: auto;
-  padding: 0;
+  padding: 2em 0em 2em 0em;
   justify-content: center;
   text-align: center;
 }
