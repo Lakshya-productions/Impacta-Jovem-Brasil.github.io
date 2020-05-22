@@ -577,6 +577,7 @@ h3 {
   #botao-projetos:hover {
     background-color: #055673;
     color: white;
+    transition: background-color 0.5s ease;
   }
   /*----- botao saiba mais ---*/
   #saiba-mais {
