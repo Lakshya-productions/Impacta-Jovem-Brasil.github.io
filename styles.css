@@ -528,22 +528,17 @@ h3 {
 
 /*------------------------------------------ PROJETOS ----------------------------------*/
 
-#projetos-section{
-background-color: #daaa1b;
-}
-.card {
+  #projetos-section{
+	background-color: #daaa1b;
+  }
+  .card {
 	border: none;
-}
-@media (max-width: 768px) {
+  }
+  @media (max-width: 768px) {
 	.card {
 		margin-bottom: 50px;
 	}
-}
-
-
-
-
-/*------------------------------------------ PROJETOS ----------------------------------*/
+  }
 
   
   .overlay {
@@ -565,50 +560,48 @@ background-color: #daaa1b;
     left: 0;
     z-index: -1;
   }
-
   
-  #projetos-textos{
+  #projetos-textos {
     text-align: center;
     padding-top: 200px;
     color: #fff;
   }
+  /*------ botao projetos ---*/
+  #botao-projetos {
+    width: 250px;
+    height: 80px;
+    background: transparent;
+    border: 3px solid #055673;
+  }
 
-  #botao-projetos{
-    background-color: #05667398;
-    color: black;
+  #botao-projetos:hover {
+    background-color: #055673;
+    color: white;
+  }
+  /*----- botao saiba mais ---*/
+  #saiba-mais {
     text-align: center;
+    padding-top: 2em;
   }
-  
-  #saiba-mais .row div {
-    text-align: center;
-    padding: 0 4em;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 2em;
-  }
-  #saiba-mais a {
-    text-decoration: none;
-    cursor: pointer;
-  }
-  .button-saiba {
-    padding: 1.5em 2em;
+
+  #botao-saiba-mais {
     color: #ffbe0b;
-    border: 2px solid #ffbe0b;
-    border-radius: 5px;
+    width: 250px;
+    height: 80px;
+    background: transparent;
+    border: 3px solid #ffbe0b;
   }
-  #saiba-mais h4 {
-    line-height: 0;
+  #botao-saiba-mais:hover {
+    color: black;
+    background-color: #ffbe0b;
+    transition: background-color 0.5s ease;
+    text-decoration: none;
   }
-  #saiba-mais h4:hover, #saiba-mais h4:active {
-  color: black;
-  background-color: #ffbe0b;
-  transition: background-color 0.5s ease;
-  text-decoration: none;
-  }
+  /*---------------------------- PROJETOS FIM ---------------------------------*/
   
 
   
-  /*------------------------------------------ INSTAGRAM ----------------------------------*/
+/*------------------------------------------ INSTAGRAM ----------------------------------*/
 #instagram {
   background-image: url('images/sky.jpg');
   background-size: 100%;
@@ -721,14 +714,6 @@ section.footer-text a:hover {
   padding: 0;
   margin-right: 10px;
 }
-
-
-
-
-
-/*--------------------------------------------------------------------------------------------------------*/
-
-
 
 /*------------------------------------ NEWSLETTER --------------------------------*/
 .home {
@@ -888,24 +873,6 @@ width:  300px;
 
 }
 
-#botao-projetos{
-    width: 250px;
-    height: 80px;
-    background: transparent;
-    border: 3px solid #055673;
-}
-
-#botao-projetos h5{
-  text-align: center;
-  color: white;
-  padding-top: 17px;
-}
-
-#botao-projetos:hover{
-background-color: #055673;
-color: white;
-}
-/*---------------------------- PROJETOS FIM -------------------------*/
 /*---------------------------- MEMBROS -------------------------*/
 #container-membros .row .col {
 	text-align: center;
