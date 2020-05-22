@@ -722,6 +722,11 @@ h3 {
     padding: 0.2rem 0.2rem 1rem;
   }
 }
+@media (max-width: 392px) {
+  #instagram .pic1 { transform: rotate(-15deg); }
+  #instagram .pic2 {}
+  #instagram .pic3 { display: none; }
+}
 
 
 
