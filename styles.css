@@ -434,7 +434,7 @@ section span.strong-line {
   width: 100%;
   height: 300px;
   margin:  0px;
-  background: #000;
+  background: rgba(0, 0, 0, 0.39);
   box-shadow: 0 30px 30px rgba(0,0,0,.5);
   padding: 0px;
   
@@ -475,7 +475,7 @@ section span.strong-line {
   padding: 15px;
   box-sizing: border-box;
   font-weight: 30px;
-  color: black;
+  color: rgba(5, 5, 5, 0.623);
 }
 
 .box:hover #card-intro-content {
@@ -609,20 +609,33 @@ h3 {
 
   
 /*------------------------------------------ INSTAGRAM ----------------------------------*/
+
+
+
 #instagram {
-  background-image: url('images/sky.jpg');
+  background-color: #033f46;
+  /*background-image: url('images/sky.jpg');*/
   background-size: 100%;
   object-fit: cover;
   padding: 2em 0;
   display: block;
-  background-color: black;
+  /*background-color: black;*/
 }
+
+
+#instagram h1{
+  color: #daaa1b;
+  padding-bottom: 15px;
+  font-size: 50px;
+}
+
 #instagram .pics {
   margin: auto;
   padding: 2em 0em 2em 0em;
   justify-content: center;
   text-align: center;
 }
+
 #instagram .pic1 {
   background-color: rgb(255, 255, 255);
   left: 13rem;
@@ -646,6 +659,7 @@ h3 {
   transition: opacity 0.2s ease 0s;
 }
 #instagram .pic3 {
+
   background-color: rgb(255, 255, 255);
   bottom: 8rem;
   height: 16rem;
@@ -655,11 +669,20 @@ h3 {
   left: 56rem;
   padding: 0.5rem 0.5rem 2rem;
   transition: opacity 0.2s ease 0s;
+
 }
+
+#polaroid-tittle{
+  padding-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
 #instagram .pics a:hover {
   opacity: 0.7;
   transition: opacity 0.2s ease-in-out;
 }
+
 #instagram .pics img {
   width: 100%;
   height: 100%;
@@ -736,7 +759,7 @@ h3 {
 @media (max-width: 392px) {
   #instagram .pic1 { transform: rotate(-15deg); }
   #instagram .pic2 {}
-  #instagram .pic3 { display: none; }
+  #instagram .pic3 { transform: rotate(-3deg); }
   #instagram {
     background-size: cover;
   }
@@ -1207,26 +1230,26 @@ time {
 
 
 
-/*-----Testimonial-------
+/*-----Testimonial-------*/
 
 .testimonial:after {
     position: absolute;
     top: -0 !important;
     left: 0;
     content: " ";
-    background-color: #25303B;
     background-size: 100% 100px;
     width: 100%;
     height: 100px;
     float: left;
     z-index: 99;
-}*/
+}
 
 .testimonial {
     min-height: 375px;
     position: relative;
-    background-color: #daaa1b;
-    /*background: url(images/trees.png);*/
+    /*background-color: #daaa1b;*/
+    background: url(images/books-bg-2.png);
+    width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
     background-position: center;
