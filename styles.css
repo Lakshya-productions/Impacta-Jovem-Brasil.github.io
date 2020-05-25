@@ -24,7 +24,7 @@
        url('./fonts/bebas-neue/bebas-neue-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('./fonts/bebas-neue/bebas-neue-v1-latin-regular.svg#BebasNeue') format('svg'); /* Legacy iOS */
 }
-/* comfortaa-regular - latin */   /* Paragraphs */
+/* comfortaa-regular - latin */   /*  Paragraphs  */
 @font-face {
   font-family: 'Comfortaa';
   font-style: normal;
