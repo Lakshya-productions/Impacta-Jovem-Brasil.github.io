@@ -285,60 +285,13 @@ h1 {
 
 
 
-
-
-
-
 /*---------------------------------  SOBRE & PROJETOS  ---------------------------------*/
-
-/*                  Sobre | Projetos              */
 
 .container {
 	margin: auto;
 }
 
-/*               Containers with Images          */
-
-/*            text           */
-
-.sobre {
-  background-image: linear-gradient(rgb(173, 167, 167), rgb(255, 255, 255));
-  padding-bottom: 30px;
-}
-
-section p.info {
-	color: #58595b;
-	font-weight: 700;
-}
-section span.strong-line {
-	color: black;
-}
-#about .container section {
-	text-align: left;
-}
-
-/*            text + images          */
-
-/* Sobre */
-#about1 {
-	margin-bottom: 50px;
-}
-
-@media (min-width: 992px) {
-	#about1 {
-	margin-bottom: 50px;
-	}
-}
-
 /*               Images            */
-#about div {
-  margin-bottom: 50px;
-}
-#about section p {
-  font-size: 22px;
-  color: dimgrey;
-  font-weight: normal;
-}
 .wallpaper {
   position: relative;
 }
@@ -353,65 +306,8 @@ section span.strong-line {
     color: white;
 }
 
-@media (min-width: 320px) {
-  #intro h1 {
-    font-size: 38px;
-  }
-}
-@media (min-width: 420px) {
-  #intro h1 {
-    font-size: 48px;
-  }
-}
-@media (min-width: 546px) {
-  #intro h1 {
-    font-size: 54px;
-  }
-}
-@media (min-width: 768px) {
-  #intro h1 {
-    font-size: 68px;
-  }
-}
-@media (min-width: 992px) {
-  #intro h1 {
-    font-size: 80px;
-  }
-}
 
-.caption h1 {
-  font-size: 56px;
-}
-@media (min-width: 992px) {
-  #intro h1 {
-    font-size: 80px;
-  }
-}
-@media (max-width: 768px) {
-  #about section p {
-    font-size: 18px;
-  }
-}
-@media (max-width: 546px) {
-  #about section p {
-    font-size: 14px;
-  }
-}
 
-.img-right {
-  border-radius: 5px;
-  width: 50%;
-  float: right;
-  margin-left: 5px;
-}
-
-@media (max-width: 768px) {
-	.img-right {
-		float: none;
-		width: 100%;
-		margin: 0 0 10px 0;
-	}
-}
 
 /*-------------cards intro--------------------*/
 
