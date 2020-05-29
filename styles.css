@@ -756,10 +756,25 @@ h3 {
     padding: 0.2rem 0.2rem 1rem;
   }
 }
-@media (max-width: 392px) {
+
+@media (max-width: 414px) {
+   #instagram .pic1 {    /*l13 b8 h16 w14*/
+    left: 13rem;
+    bottom: 8rem;
+    height: 10rem;
+    width: 9.5rem;
+    padding: 0.3rem 0.3rem 0rem;
+  }
+  #instagram .pic3 {   /*l42*/
+    left: 13rem;
+    bottom: 8rem;
+    height: 10rem;
+    width: 9.5rem;
+    padding: 0.3rem 0.3rem 0rem;
+  }
   #instagram .pic1 { transform: rotate(-15deg); }
   #instagram .pic2 { display: none; }
-  #instagram .pic3 { transform: rotate(15deg); }
+  #instagram .pic3 { transform: rotate( 15deg); }
   #instagram {
     background-size: cover;
   }
