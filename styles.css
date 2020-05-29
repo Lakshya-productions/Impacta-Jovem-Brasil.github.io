@@ -758,8 +758,8 @@ h3 {
 }
 @media (max-width: 392px) {
   #instagram .pic1 { transform: rotate(-15deg); }
-  #instagram .pic2 {}
-  #instagram .pic3 { transform: rotate(-3deg); }
+  #instagram .pic2 { display: none; }
+  #instagram .pic3 { transform: rotate(15deg); }
   #instagram {
     background-size: cover;
   }
