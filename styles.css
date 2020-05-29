@@ -611,13 +611,12 @@ h3 {
 
 
 #instagram {
-  background-color: #033f46;
-  /*background-image: url('images/sky.jpg');*/
+  /*background-color: #033f46;*/
+  background-image: url('images/sky.jpg');
   background-size: 100%;
   object-fit: cover;
   padding: 2em 0;
   display: block;
-  /*background-color: black;*/
 }
 
 
