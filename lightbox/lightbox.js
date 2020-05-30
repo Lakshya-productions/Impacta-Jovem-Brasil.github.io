@@ -11,7 +11,6 @@
  *
  * @preserve
  */
-
 // Uses Node, AMD or browser globals to create a module.
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
@@ -37,7 +36,6 @@
     this.options = $.extend({}, this.constructor.defaults);
     this.option(options);
   }
-
   // Descriptions of all options available on the demo site:
   // http://lokeshdhakar.com/projects/lightbox2/index.html#options
   Lightbox.defaults = {
@@ -63,15 +61,12 @@
      */
     sanitizeTitle: false
   };
-
   Lightbox.prototype.option = function(options) {
     $.extend(this.options, options);
   };
-
   Lightbox.prototype.imageCountLabel = function(currentImageNum, totalImages) {
     return this.options.albumLabel.replace(/%1/g, currentImageNum).replace(/%2/g, totalImages);
   };
-
   Lightbox.prototype.init = function() {
     var self = this;
     // Both enable and build methods require the body tag to be in the DOM.
@@ -80,7 +75,6 @@
       self.build();
     });
   };
-
   // Loop through anchors and areamaps looking for either data-lightbox attributes or rel attributes
   // that contain 'lightbox'. When these are clicked, start lightbox.
   Lightbox.prototype.enable = function() {
@@ -90,16 +84,13 @@
       return false;
     });
   };
-
   // Build html for the lightbox and the overlay.
   // Attach event handlers to the new DOM elements. click click click
   Lightbox.prototype.build = function() {
     if ($('#lightbox').length > 0) {
         return;
     }
-
     var self = this;
-
     // The two root notes generated, #lightboxOverlay and #lightbox are given
     // tabindex attrs so they are focusable. We attach our keyboard event
     // listeners to these two elements, and not the document. Clicking anywhere
@@ -112,7 +103,6 @@
     //
     // Github issue: https://github.com/lokesh/lightbox2/issues/663
     $('<div id="lightboxOverlay" tabindex="-1" class="lightboxOverlay"></div><div id="lightbox" tabindex="-1" class="lightbox"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt=""/><div class="lb-nav"><a class="lb-prev" aria-label="Previous image" href="" ></a><a class="lb-next" aria-label="Next image" href="" ></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div>').appendTo($('body'));
-
     // Cache jQuery objects
     this.$lightbox       = $('#lightbox');
     this.$overlay        = $('#lightboxOverlay');
@@ -120,7 +110,6 @@
     this.$container      = this.$lightbox.find('.lb-container');
     this.$image          = this.$lightbox.find('.lb-image');
     this.$nav            = this.$lightbox.find('.lb-nav');
-
     // Store css values for future lookup
     this.containerPadding = {
       top: parseInt(this.$container.css('padding-top'), 10),
@@ -128,33 +117,28 @@
       bottom: parseInt(this.$container.css('padding-bottom'), 10),
       left: parseInt(this.$container.css('padding-left'), 10)
     };
-
     this.imageBorderWidth = {
       top: parseInt(this.$image.css('border-top-width'), 10),
       right: parseInt(this.$image.css('border-right-width'), 10),
       bottom: parseInt(this.$image.css('border-bottom-width'), 10),
       left: parseInt(this.$image.css('border-left-width'), 10)
     };
-
     // Attach event handlers to the newly minted DOM elements
     this.$overlay.hide().on('click', function() {
       self.end();
       return false;
     });
-
     this.$lightbox.hide().on('click', function(event) {
       if ($(event.target).attr('id') === 'lightbox') {
         self.end();
       }
     });
-
     this.$outerContainer.on('click', function(event) {
       if ($(event.target).attr('id') === 'lightbox') {
         self.end();
       }
       return false;
     });
-
     this.$lightbox.find('.lb-prev').on('click', function() {
       if (self.currentImageIndex === 0) {
         self.changeImage(self.album.length - 1);
@@ -163,7 +147,6 @@
       }
       return false;
     });
-
     this.$lightbox.find('.lb-next').on('click', function() {
       if (self.currentImageIndex === self.album.length - 1) {
         self.changeImage(0);
@@ -172,7 +155,6 @@
       }
       return false;
     });
-
     /*
       Show context menu for image on right-click
 
@@ -197,26 +179,19 @@
         });
       }
     });
-
-
     this.$lightbox.find('.lb-loader, .lb-close').on('click', function() {
       self.end();
       return false;
     });
   };
-
   // Show overlay and lightbox. If the image is part of a set, add siblings to album array.
   Lightbox.prototype.start = function($link) {
     var self    = this;
     var $window = $(window);
-
     $window.on('resize', $.proxy(this.sizeOverlay, this));
-
     this.sizeOverlay();
-
     this.album = [];
     var imageNumber = 0;
-
     function addToAlbum($link) {
       self.album.push({
         alt: $link.attr('data-alt'),
@@ -224,11 +199,9 @@
         title: $link.attr('data-title') || $link.attr('title')
       });
     }
-
     // Support both data-lightbox attribute and rel attribute implementations
     var dataLightboxValue = $link.attr('data-lightbox');
     var $links;
-
     if (dataLightboxValue) {
       $links = $($link.prop('tagName') + '[data-lightbox="' + dataLightboxValue + '"]');
       for (var i = 0; i < $links.length; i = ++i) {
@@ -252,7 +225,6 @@
         }
       }
     }
-
     // Position Lightbox
     var top  = $window.scrollTop() + this.options.positionFromTop;
     var left = $window.scrollLeft();
@@ -260,31 +232,25 @@
       top: top + 'px',
       left: left + 'px'
     }).fadeIn(this.options.fadeDuration);
-
     // Disable scrolling of the page while open
     if (this.options.disableScrolling) {
       $('body').addClass('lb-disable-scrolling');
     }
-
     this.changeImage(imageNumber);
   };
-
   // Hide most UI elements in preparation for the animated resizing of the lightbox.
   Lightbox.prototype.changeImage = function(imageNumber) {
     var self = this;
     var filename = this.album[imageNumber].link;
     var filetype = filename.split('.').slice(-1)[0];
     var $image = this.$lightbox.find('.lb-image');
-
     // Disable keyboard nav during transitions
     this.disableKeyboardNav();
-
     // Show loading state
     this.$overlay.fadeIn(this.options.fadeDuration);
     $('.lb-loader').fadeIn('slow');
     this.$lightbox.find('.lb-image, .lb-nav, .lb-prev, .lb-next, .lb-dataContainer, .lb-numbers, .lb-caption').hide();
     this.$outerContainer.addClass('animating');
-
     // When image to show is preloaded, we send the width and height to sizeContainer()
     var preloader = new Image();
     preloader.onload = function() {
@@ -295,39 +261,31 @@
       var maxImageWidth;
       var windowHeight;
       var windowWidth;
-
       $image.attr({
         'alt': self.album[imageNumber].alt,
         'src': filename
       });
-
       $preloader = $(preloader);
-
       $image.width(preloader.width);
       $image.height(preloader.height);
       windowWidth = $(window).width();
       windowHeight = $(window).height();
-
       // Calculate the max image dimensions for the current viewport.
       // Take into account the border around the image and an additional 10px gutter on each side.
       maxImageWidth  = windowWidth - self.containerPadding.left - self.containerPadding.right - self.imageBorderWidth.left - self.imageBorderWidth.right - 20;
       maxImageHeight = windowHeight - self.containerPadding.top - self.containerPadding.bottom - self.imageBorderWidth.top - self.imageBorderWidth.bottom - self.options.positionFromTop - 70;
-
       /*
       SVGs that don't have width and height attributes specified are reporting width and height
       values of 0 in Firefox 47 and IE11 on Windows. To fix, we set the width and height to the max
       dimensions for the viewport rather than 0 x 0.
-
       https://github.com/lokesh/lightbox2/issues/552
       */
-
       if (filetype === 'svg') {
         if ((preloader.width === 0) || preloader.height === 0) {
           $image.width(maxImageWidth);
           $image.height(maxImageHeight);
         }
       }
-
       // Fit image inside the viewport.
       if (self.options.fitImagesInViewport) {
 
@@ -343,7 +301,6 @@
         maxImageWidth = self.options.maxWidth || preloader.width || maxImageWidth;
         maxImageHeight = self.options.maxHeight || preloader.height || maxImageHeight;
       }
-
       // Is the current image's width or height is greater than the maxImageWidth or maxImageHeight
       // option than we need to size down while maintaining the aspect ratio.
       if ((preloader.width > maxImageWidth) || (preloader.height > maxImageHeight)) {
@@ -361,12 +318,10 @@
       }
       self.sizeContainer($image.width(), $image.height());
     };
-
     // Preload image before showing
     preloader.src = this.album[imageNumber].link;
     this.currentImageIndex = imageNumber;
   };
-
   // Stretch overlay to fit the viewport
   Lightbox.prototype.sizeOverlay = function() {
     var self = this;
@@ -384,7 +339,6 @@
 
     }, 0);
   };
-
   // Animate the size of the lightbox to fit the image we are showing
   // This method also shows the the image.
   Lightbox.prototype.sizeContainer = function(imageWidth, imageHeight) {
@@ -405,7 +359,6 @@
 
       self.showImage();
     }
-
     if (oldWidth !== newWidth || oldHeight !== newHeight) {
       this.$outerContainer.animate({
         width: newWidth,
@@ -417,7 +370,6 @@
       postResize();
     }
   };
-
   // Display the image and its details and begin preload neighboring images.
   Lightbox.prototype.showImage = function() {
     this.$lightbox.find('.lb-loader').stop(true).hide();
@@ -428,7 +380,6 @@
     this.preloadNeighboringImages();
     this.enableKeyboardNav();
   };
-
   // Display previous and next navigation if appropriate.
   Lightbox.prototype.updateNav = function() {
     // Check to see if the browser supports touch events. If so, we take the conservative approach
@@ -464,7 +415,6 @@
       }
     }
   };
-
   // Display caption, image number, and closing button.
   Lightbox.prototype.updateDetails = function() {
     var self = this;
@@ -481,7 +431,6 @@
       }
       $caption.fadeIn('fast');
     }
-
     if (this.album.length > 1 && this.options.showImageNumberLabel) {
       var labelText = this.imageCountLabel(this.currentImageIndex + 1, this.album.length);
       this.$lightbox.find('.lb-number').text(labelText).fadeIn('fast');
@@ -495,7 +444,6 @@
       return self.sizeOverlay();
     });
   };
-
   // Preload previous and next images in set.
   Lightbox.prototype.preloadNeighboringImages = function() {
     if (this.album.length > this.currentImageIndex + 1) {
@@ -507,7 +455,6 @@
       preloadPrev.src = this.album[this.currentImageIndex - 1].link;
     }
   };
-
   Lightbox.prototype.enableKeyboardNav = function() {
     this.$lightbox.on('keyup.keyboard', $.proxy(this.keyboardAction, this));
     this.$overlay.on('keyup.keyboard', $.proxy(this.keyboardAction, this));
@@ -517,7 +464,6 @@
     this.$lightbox.off('.keyboard');
     this.$overlay.off('.keyboard');
   };
-
   Lightbox.prototype.keyboardAction = function(event) {
     var KEYCODE_ESC        = 27;
     var KEYCODE_LEFTARROW  = 37;
@@ -542,7 +488,6 @@
       }
     }
   };
-
   // Closing time. :-(
   Lightbox.prototype.end = function() {
     this.disableKeyboardNav();
@@ -554,6 +499,5 @@
       $('body').removeClass('lb-disable-scrolling');
     }
   };
-
   return new Lightbox();
 }));
