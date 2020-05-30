@@ -1,35 +1,28 @@
-/* -------------------- FONTS --------------------- */
-
-/* bebas-neue-regular - latin */   /* Titles */
 @font-face {
   font-family: 'Bebas Neue';
   font-style: normal;
   font-weight: 400;
-  src: url('./fonts/bebas-neue/bebas-neue-v1-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/bebas-neue/bebas-neue-v1-latin-regular.eot'); 
   src: local('Bebas Neue Regular'), local('BebasNeue-Regular'),
-       url('./fonts/bebas-neue/bebas-neue-v1-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('./fonts/bebas-neue/bebas-neue-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('./fonts/bebas-neue/bebas-neue-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('./fonts/bebas-neue/bebas-neue-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('./fonts/bebas-neue/bebas-neue-v1-latin-regular.svg#BebasNeue') format('svg'); /* Legacy iOS */
+       url('./fonts/bebas-neue/bebas-neue-v1-latin-regular.eot?#iefix') format('embedded-opentype'), 
+       url('./fonts/bebas-neue/bebas-neue-v1-latin-regular.woff2') format('woff2'), 
+       url('./fonts/bebas-neue/bebas-neue-v1-latin-regular.woff') format('woff'), 
+       url('./fonts/bebas-neue/bebas-neue-v1-latin-regular.ttf') format('truetype'), 
+       url('./fonts/bebas-neue/bebas-neue-v1-latin-regular.svg#BebasNeue') format('svg'); 
 }
-/* comfortaa-regular - latin */   /*  Paragraphs  */
+/*  Paragraphs  */
 @font-face {
   font-family: 'Comfortaa';
   font-style: normal;
   font-weight: 400;
-  src: url('./fonts/comfortaa/comfortaa-v28-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/comfortaa/comfortaa-v28-latin-regular.eot'); 
   src: local(''),
-       url('./fonts/comfortaa/comfortaa-v28-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('./fonts/comfortaa/comfortaa-v28-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('./fonts/comfortaa/comfortaa-v28-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('./fonts/comfortaa/comfortaa-v28-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('./fonts/comfortaa/comfortaa-v28-latin-regular.svg#Comfortaa') format('svg'); /* Legacy iOS */
+       url('./fonts/comfortaa/comfortaa-v28-latin-regular.eot?#iefix') format('embedded-opentype'), 
+       url('./fonts/comfortaa/comfortaa-v28-latin-regular.woff2') format('woff2'), 
+       url('./fonts/comfortaa/comfortaa-v28-latin-regular.woff') format('woff'),
+       url('./fonts/comfortaa/comfortaa-v28-latin-regular.ttf') format('truetype'), 
+       url('./fonts/comfortaa/comfortaa-v28-latin-regular.svg#Comfortaa') format('svg'); 
 }
-
-/*--------------------------------- ICONS ----------------------------*/
-
-/* svg-icon */
 .svg-icon {
   width: 1.5em;
   height: 1.5em;
@@ -49,9 +42,6 @@
   stroke: white;
   stroke-width: 1;
 }
-
-
-/*--------------------  HEADERS   -----------------*/
 *{
 	margin: 0;
 	padding: 0;
@@ -61,7 +51,6 @@ body{
 	margin: 0;
 	padding: 0;
 }
-
 h1,
 h2,
 h3,
@@ -92,21 +81,14 @@ h2 {
 h1 {
   font-size: 36px;
 }
-
 .text-center {
     text-align: center;
 }
-
-
-
-
 /* --------------------- NAVBARS ---------------------*/
-
 #blacknavbar li a {                    
 	color: grey;
 	cursor: pointer;
 }
-
 #blacknavbar .svg-icon { 
 	transition: all 0.3s ease-in-out;
 	opacity: 0.3;
@@ -122,8 +104,7 @@ h1 {
 	text-decoration: none;
 	transition: color 0.5s;
 }
-
-/*                White Navbar          */
+/* White */
 .navbar-brand{
   font-size: 36px;
   font-family: 'Airport'; 
@@ -172,13 +153,10 @@ h1 {
 @media (max-width: 991px) {
 	#whitenavbar .nav-link:hover:after {  transform-origin:  0% 50%; }
 }
-
 .navbar-toggler {
 	border: none;
 	cursor: pointer;
 }
-
-
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navw:focus {
@@ -188,10 +166,6 @@ h1 {
     background-color: #3e8914;
     transition: background-color 0.25s ease-in-out;
 }
-
-/*------------------------ NAVBAR MEDIAS ----------------------*/
-
-/*       white navbar     */
 @media (max-width: 460px) {
 	.navbar-brand{
 		font-size: 30px;
@@ -204,7 +178,6 @@ h1 {
 		height: 25px;
 	}
 }
-
 @media (max-width: 390px) {
 	.navbar-brand{
 		font-size: 28px;
@@ -216,7 +189,6 @@ h1 {
 		width: 25px;
 	}
 }
-
 @media (max-width: 360px) {
 	.navbar-brand{
 		font-size: 25px;
@@ -232,22 +204,11 @@ h1 {
 		width: 24px;
 	}
 }
-
-
-
-
-
-/*------------------ TITLES ----------------*/
 #title-FAQ h1, #title-membros h1, #title-contato h1 {
   font-family: 'Airport'; 
   font-weight: normal; 
   font-style: normal;
 }
-
-
-
-
-
 /*------------------- INTRO -----------------*/
 #intro .wallpaper {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('Imagens/Fotos Internet/header3.jpg');
@@ -269,26 +230,14 @@ h1 {
   #intro .caption h1 { font-size: 60px; }
   #intro .wallpaper { height: 350px; }
 }
-
-
-
-/*---------------------------------  SOBRE & PROJETOS  ---------------------------------*/
-
-/*                  Sobre | Projetos              */
-
+/* SOBRE & PROJETOS */
 .container {
 	margin: auto;
 }
-
-/*               Containers with Images          */
-
-/*            text           */
-
 .sobre {
   background-image: linear-gradient(rgb(173, 167, 167), rgb(255, 255, 255));
   padding-bottom: 30px;
 }
-
 section p.info {
 	color: #58595b;
 	font-weight: 700;
@@ -299,10 +248,6 @@ section span.strong-line {
 #about .container section {
 	text-align: left;
 }
-
-/*            text + images          */
-
-/* Sobre */
 #about1 {
 	margin-bottom: 50px;
 }
@@ -312,7 +257,6 @@ section span.strong-line {
 	margin-bottom: 50px;
 	}
 }
-
 /*               Images            */
 #about div {
   margin-bottom: 50px;
@@ -328,7 +272,6 @@ section span.strong-line {
 section span.strong-line {
     color: white;
 }
-
 @media (min-width: 320px) {
   #intro h1 {
     font-size: 38px;
@@ -354,7 +297,6 @@ section span.strong-line {
     font-size: 80px;
   }
 }
-
 .caption h1 {
   font-size: 56px;
 }
@@ -373,14 +315,12 @@ section span.strong-line {
     font-size: 14px;
   }
 }
-
 .img-right {
   border-radius: 5px;
   width: 50%;
   float: right;
   margin-left: 5px;
 }
-
 @media (max-width: 768px) {
 	.img-right {
 		float: none;
@@ -388,7 +328,6 @@ section span.strong-line {
 		margin: 0 0 10px 0;
 	}
 }
-
 /*               Images            */
 .wallpaper {
   position: relative;
@@ -403,18 +342,11 @@ section span.strong-line {
     width: 100%;
     color: white;
 }
-
-
-
-
-/*-------------cards intro--------------------*/
-
+/* cards intro */
 #intro-cards-background{
   background-color: #056673;
   padding-bottom: 30px;
 }
-
-
 #card-container {
   max-width: 2000px;
   margin: 50px 0 ;
@@ -422,7 +354,6 @@ section span.strong-line {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .box {
   position: relative;
   width: 100%;
@@ -433,7 +364,6 @@ section span.strong-line {
   padding: 0px;
   
 }
-
 .imgBx {
   position: absolute;
   top: 0;
@@ -441,7 +371,6 @@ section span.strong-line {
   width: 100%;
   height: 100%;
 }
-
 .imgBx img {
   position: absolute;
   top: 0;
@@ -451,11 +380,9 @@ section span.strong-line {
   object-fit: cover;
   transition: 0.5s;
 }
-
 .box:hover .imgBx img {
   opacity: 0;
 }
-
 #card-intro-content {
   position: absolute;
   bottom: 20px;
@@ -471,21 +398,17 @@ section span.strong-line {
   font-weight: 30px;
   color: rgba(5, 5, 5, 0.623);
 }
-
 .box:hover #card-intro-content {
   width: 100%;
   height: 100%;
   bottom: 0;
   left: 0;
-  
 }
-
 h3 {
   margin: 0;
   padding: 0;
   font-size: 20px;
 }
-
 #parag-card{
   margin: 10px 0 0;
   padding: 0;
@@ -494,17 +417,11 @@ h3 {
   text-align: justify;
   transition: 0.5s;
 }
-
 .box:hover #parag-card {
   opacity: 1;
   transition-delay: 0.5s;
 }
-/*-------------cards intro--------------------*/
-
-
-
-/*------------------------------------------ PROJETOS ----------------------------------*/
-
+  /*                           PROJETOS                              */
   #projetos-section{
 	background-color: #daaa1b;
   }
@@ -516,8 +433,6 @@ h3 {
 		margin-bottom: 50px;
 	}
   }
-
-  
   .overlay {
     width: 100%;
     height: 500px;
@@ -526,13 +441,11 @@ h3 {
     position: relative;
     z-index: 1;
   }
-
   #projetos-textos {
     text-align: center;
     padding-top: 160px;
     color: #fff;
   }
-
   @media (max-width: 768px) {
     .overlay {
       height: 400px;
@@ -542,7 +455,6 @@ h3 {
       padding-top: 100px;
     }
   }
-  
   .overlay:before {
     position: absolute;
     content: '';
@@ -553,26 +465,23 @@ h3 {
     left: 0;
     z-index: -1;
   }
-  
-  /*------ botao projetos ---*/
+  /*  botao projetos  */
   #botao-projetos {
     width: 250px;
     height: 80px;
     background: transparent;
     border: 3px solid #055673;
   }
-
   #botao-projetos:hover {
     background-color: #055673;
     color: white;
     transition: background-color 0.5s ease;
   }
-  /*----- botao saiba mais ---*/
+  /*  botao saiba mais  */
   #saiba-mais {
     text-align: center;
     padding-top: 2em;
   }
-
   #botao-saiba-mais {
     color: #ffbe0b;
     width: 250px;
@@ -586,110 +495,89 @@ h3 {
     transition: background-color 0.5s ease;
     text-decoration: none;
   }
-  /*---------------------------- PROJETOS FIM ---------------------------------*/
-
-
-
-
-
-  
-/*------------------------------------------ INSTAGRAM ----------------------------------*/
-
-
-
-#instagram {
-  /*background-color: #033f46;*/
-  background-image: url('Imagens/Fotos Internet/sky2.jpg');
-  background-size: 100%;
-  object-fit: cover;
-  padding: 2em 0;
-  display: block;
-}
-
-
-#instagram h1{
-  color: #daaa1b;
-  padding-bottom: 15px;
-  font-size: 50px;
-}
-
-#instagram .pics {
-  margin: auto;
-  padding: 2em 0em 2em 0em;
-  justify-content: center;
-  text-align: center;
-}
-
-#instagram .pic1 {
-  background-color: rgb(255, 255, 255);
-  left: 13rem;
-  bottom: 8rem;
-  height: 16rem;
-  width: 14rem;
-  transform: rotate(15deg);
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 16px 0px, rgba(0, 0, 0, 0.2) 0px 0px 4px 0px;
-  padding: 0.5rem 0.5rem 2rem;
-  transition: opacity 0.2s ease 0s;
-}
-#instagram .pic2 {
-  background-color: rgb(255, 255, 255);
-  bottom: 8rem;
-  height: 16rem;
-  width: 14rem;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 16px 0px, rgba(0, 0, 0, 0.2) 0px 0px 4px 0px;
-  left: 42rem;
-  transform: rotate(-15deg);
-  padding: 0.5rem 0.5rem 2rem;
-  transition: opacity 0.2s ease 0s;
-}
-#instagram .pic3 {
-
-  background-color: rgb(255, 255, 255);
-  bottom: 8rem;
-  height: 16rem;
-  width: 14rem;
-  transform: rotate(15deg);
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 16px 0px, rgba(0, 0, 0, 0.2) 0px 0px 4px 0px;
-  left: 56rem;
-  padding: 0.5rem 0.5rem 2rem;
-  transition: opacity 0.2s ease 0s;
-
-}
-
-#polaroid-tittle{
-  padding-top: 10px;
-  text-decoration: none;
-  color: black;
-}
-
-#instagram .pics a:hover {
-  opacity: 0.7;
-  transition: opacity 0.2s ease-in-out;
-}
-
-#instagram .pics img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.Row {
+  /*        INSTAGRAM      */
+  #instagram {
+    /*background-color: #033f46;*/
+    background-image: url('Imagens/Fotos Internet/sky2.jpg');
+    background-size: 100%;
+    object-fit: cover;
+    padding: 2em 0;
+    display: block;
+  }
+  #instagram h1{
+    color: #daaa1b;
+    padding-bottom: 15px;
+    font-size: 50px;
+  }
+  #instagram .pics {
+    margin: auto;
+    padding: 2em 0em 2em 0em;
+    justify-content: center;
+    text-align: center;
+  }
+  #instagram .pic1 {
+    background-color: rgb(255, 255, 255);
+    left: 13rem;
+    bottom: 8rem;
+    height: 16rem;
+    width: 14rem;
+    transform: rotate(15deg);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 16px 0px, rgba(0, 0, 0, 0.2) 0px 0px 4px 0px;
+    padding: 0.5rem 0.5rem 2rem;
+    transition: opacity 0.2s ease 0s;
+  }
+  #instagram .pic2 {
+    background-color: rgb(255, 255, 255);
+    bottom: 8rem;
+    height: 16rem;
+    width: 14rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 16px 0px, rgba(0, 0, 0, 0.2) 0px 0px 4px 0px;
+    left: 42rem;
+    transform: rotate(-15deg);
+    padding: 0.5rem 0.5rem 2rem;
+    transition: opacity 0.2s ease 0s;
+  }
+  #instagram .pic3 {
+    background-color: rgb(255, 255, 255);
+    bottom: 8rem;
+    height: 16rem;
+    width: 14rem;
+    transform: rotate(15deg);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 16px 0px, rgba(0, 0, 0, 0.2) 0px 0px 4px 0px;
+    left: 56rem;
+    padding: 0.5rem 0.5rem 2rem;
+    transition: opacity 0.2s ease 0s;
+  }
+  #polaroid-tittle{
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  #instagram .pics a:hover {
+    opacity: 0.7;
+    transition: opacity 0.2s ease-in-out;
+  }
+  #instagram .pics img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .Row {
     display: table;
     width: 100%; /*Optional*/
     table-layout: fixed; /*Optional*/
-}
-.Column {
+  }
+  .Column {
     display: table-cell;
-}
-
-@media (max-width: 991px) {
+  }
+  @media (max-width: 991px) {
 	#instagram .pic3 {
 		margin-left: 50%;
 		margin-bottom: 10%;
 	}
-}
-@media (max-width: 768px) {
-  #instagram .pics {
+  }
+  @media (max-width: 768px) {
+    #instagram .pics {
     margin: auto;
     padding: 0;
     justify-content: center;
@@ -725,14 +613,14 @@ h3 {
     width: 8rem;
     padding: 0.2rem 0.2rem 1rem;
   }
-  #instagram .pic2 {   /*l42*/
+  #instagram .pic2 {   
     left: 13rem;
     bottom: 8rem;
     height: 10rem;
     width: 8rem;
     padding: 0.2rem 0.2rem 1rem;
   }
-  #instagram .pic3 {   /*l56*/
+  #instagram .pic3 {   
     left: 13rem;
     bottom: 8rem;
     height: 10rem;
@@ -740,16 +628,15 @@ h3 {
     padding: 0.2rem 0.2rem 1rem;
   }
 }
-
 @media (max-width: 414px) {
-   #instagram .pic1 {    /*l13 b8 h16 w14*/
+   #instagram .pic1 {   
     left: 13rem;
     bottom: 8rem;
     height: 10rem;
     width: 9.5rem;
     padding: 0.3rem 0.3rem 0rem;
   }
-  #instagram .pic3 {   /*l42*/
+  #instagram .pic3 {   
     left: 13rem;
     bottom: 8rem;
     height: 10rem;
@@ -763,16 +650,7 @@ h3 {
     background-size: cover;
   }
 }
-
-
-
-
-
-
-
-/*------------------------------------------ FOOTER ----------------------------------*/
-/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background */
-/* https://getbootstrap.com/docs/4.4/layout/grid/#row-columns */
+/* FOOTER */
 footer{
 	background: black;
 	color: white;
@@ -806,8 +684,7 @@ section.footer-text a:hover {
   padding: 0;
   margin-right: 10px;
 }
-
-/*------------------------------------ NEWSLETTER --------------------------------*/
+/* NEWSLETTER */
 .home {
     position: absolute;
     top: 5px;
@@ -820,12 +697,11 @@ section.footer-text a:hover {
 .home a:hover {
 	color: #ff4800;
 }
-
 .email-newsletter {
 	text-align: center;
 }
 .email-newsletter input[type=email] {
-	/*border-radius: 5px;*/
+    /*border-radius: 5px;*/
     color: #29303b;
     font-size: 18px;
     height: auto;
@@ -834,7 +710,6 @@ section.footer-text a:hover {
 .email-newsletter fieldset {
 	text-align: center;
 }
-
 fieldset {
     padding: 0;
     margin: 0;
@@ -847,7 +722,6 @@ fieldset h4 {
   font-size: 1.3rem;
   line-height: 2;
 }
-
 .email-newsletter .btn {
   background-color: #0d5900;
   border-color: #0d5900;
@@ -862,7 +736,6 @@ fieldset h4 {
   transition: border-color .3s ease-in-out;
   transition: color .3s ease-in-out;
 }
-
 .header-newsletter {
 	display: flex;
 	align-items: center;
@@ -897,11 +770,7 @@ width:  300px;
 .section-newsletter span.yellow {
 	color: #daaa1b;
 }
-
-
-/*----------------------------------------------------------------------------------------------------------------*/
-
-/*---------------------------- PROJETOS -------------------------*/
+/*  PROJETOS  */
 #oportunidades .wallpaper {
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('Imagens/Fotos/dc segundo dia-40.jpg');
   height: 500px;
@@ -931,7 +800,6 @@ width:  300px;
     height: 300px;
   }
 }
-
 .caption h1, #title-aplicar h1 {
   font-size: 64px;
 }
@@ -972,18 +840,15 @@ width:  300px;
   transition: background-color 0.5s ease;
   text-decoration: none;
 }
-
-/*---------------------------- FAQ -------------------------*/
+/* FAQ */
 #container-FAQ section p.question {
 	font-size: 20px;
 	font-weight: 900;
 }
-
 #container-FAQ section p.answer {
 	color: #58595b;
 	font-weight: normal;
 }
-
 .iframe-container{
   position: relative;
   width: 100%;
@@ -998,8 +863,7 @@ width:  300px;
   height: 100%;
 
 }
-
-/*---------------------------- MEMBROS -------------------------*/
+/* MEMBROS */
 #container-membros .row .col {
 	text-align: center;
 	justify-content: center;
@@ -1025,7 +889,6 @@ width:  300px;
 	opacity: 0.8;
 	transition: opacity 0.5s;
 }
-
 .svg-membros {
 	width: 1em;
 	height: 1em;
@@ -1038,8 +901,7 @@ width:  300px;
 	transition: opacity 0.3s;
 	transform: scale(1.1);
 }
-
-/*---------------------------- GALERIA -------------------------*/
+/* GALERIA */
 #container-galeria img:hover {
   opacity: 0.8;
   transition: opacity 0.3s;
@@ -1078,48 +940,30 @@ width:  300px;
     object-fit: cover;
   }
 }
-
-/*---------------------------- CONTATO -------------------------*/
+/* CONTATO */
 #contato .container p a {
   text-decoration: none;
 }
-
-
- /* TIMELINE INTRO
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+/* TIMELINE INTRO */
 #timeline-intro {
   background: #daaa1b;
   padding: 30px 0;
   color: black;
 }
-
 #timeline-container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
 }
-
-/*h1 {
-  font-size: 2.5rem;
-}*/
-
-
-
-
-/* TIMELINE
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+/* TIMELINE */
 .timeline {
   padding-bottom: 40px;
 }
-
 .timeline ul {
   /*background-image: linear-gradient( rgb(255, 255, 255), rgb(173, 167, 167)); */
   padding: 30px 0;
 }
-
 .timeline ul li {
   list-style-type: none;
   position: relative;
@@ -1128,7 +972,6 @@ width:  300px;
   padding-top: 50px;
   background: #033f46;
 }
-
 .timeline ul li::after {
   content: '';
   position: absolute;
@@ -1140,7 +983,6 @@ width:  300px;
   border-radius: 50%;
   background: inherit;
 }
-
 .timeline ul li div {
   position: relative;
   bottom: 0;
@@ -1150,11 +992,9 @@ width:  300px;
   color: #021f22;
   box-shadow: 0 30px 30px rgba(0,0,0,.5);
 }
-
 .timeline ul li div time{
   color: #daaa1b;
 }
-
 .timeline ul li div::before {
   content: '';
   position: absolute;
@@ -1163,70 +1003,52 @@ width:  300px;
   height: 0;
   border-style: solid;
 }
-
 .timeline ul li:nth-child(odd) div {
   left: 45px;
 }
-
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
   border-color: transparent #0d5900 transparent transparent;
 }
-
 .timeline ul li:nth-child(even) div {
   left: -439px;
 }
-
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
   border-color: transparent transparent transparent #0d5900;
 }
-
 time {
   display: block;
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 8px;
 }
-
-
-/* EFFECTS
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+/* EFFECTS */
 .timeline ul li::after {
   transition: background .5s ease-in-out;
 }
-
 .timeline ul li.in-view::after {
   background: #033f46;
 }
-
 .timeline ul li div {
   visibility: hidden;
   opacity: 0;
   transition: all .5s ease-in-out;
 }
-
 .timeline ul li:nth-child(odd) div {
   transform: translate3d(200px, 0, 0);
 }
-
 .timeline ul li:nth-child(even) div {
   transform: translate3d(-200px, 0, 0);
 }
-
 .timeline ul li.in-view div {
   transform: none;
   visibility: visible;
   opacity: 1;
 }
-
-
-/* GENERAL MEDIA QUERIES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+/* GENERAL MEDIA QUERIES */
 @media screen and (max-width: 900px) {
   .timeline ul li div {
     width: 250px;
@@ -1236,7 +1058,6 @@ time {
     /*250+45-6*/
   }
 }
-
 @media screen and (max-width: 600px) {
   .timeline ul li {
     margin-left: 20px;
@@ -1253,18 +1074,7 @@ time {
     border-color: transparent #0d5900 transparent transparent;
   }
 }
-
-/*---------------------------------TIMELINE END---------------------*/
-
-
-
-
-
-
-
-
-/*-----Testimonial-------*/
-
+/* Testimonial */
 .testimonial:after {
     position: absolute;
     top: -0 !important;
@@ -1276,7 +1086,6 @@ time {
     float: left;
     z-index: 99;
 }
-
 .testimonial {
     min-height: 375px;
     position: relative;
@@ -1299,7 +1108,6 @@ time {
 #testimonial4 .carousel-inner .item{
   overflow: hidden;
 }
-
 .testimonial4_indicators .carousel-indicators{
   left: 0;
   margin: 0;
@@ -1346,7 +1154,6 @@ time {
   -webkit-border-radius: 0;
   border-radius: 0;
 }
-
 .testimonial4_control_button .carousel-control{
   top: 175px;
   opacity: 1;
@@ -1387,7 +1194,6 @@ time {
   background: #fff;
   border: 2px solid #fff;
 }
-
 .testimonial4_header{
   top: 0;
   left: 0;
@@ -1406,7 +1212,6 @@ time {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-
 .testimonial4_slide{
   top: 0;
   left: 0;
@@ -1447,7 +1252,6 @@ time {
   color: #ffffff;
   font-size: 22px;
 }
-
 .testimonial .carousel {
     padding-bottom:50px;
 }
@@ -1455,11 +1259,6 @@ time {
     width: 35px;
     height: 35px;
 }
-
-/**
-* General style 
-*/ 
-
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -1468,11 +1267,7 @@ time {
   clear: both;
   height: 0;
 }
-
-/**
-* Popup Wrap
-*/ 
-
+/* Popup Wrap */ 
 .popup-wrap {
   content: "";
   background-color: rgba(0,0,0,.8);
@@ -1483,13 +1278,7 @@ time {
   position: fixed;
   z-index: 999999;
 }
-
-
-
-/**
-* Popup Box
-*/ 
-
+/* Popup Box */ 
 .popup-return {
   position: fixed;
   top:0;
@@ -1502,69 +1291,37 @@ time {
   background-color: #fdfdfd; 
   padding: 15px;
 }
-
-
-
-
-/**
-* Popup Header
-*/ 
-
-
+/* Popup Header */ 
 .popup-header {
   margin-top: 20px;
   box-shadow: 0 3px 6px -6px black;
   color: #0d5900;
 }
-
-
 h2 {
   text-align: center;
   font-size: 25px; 
 }
-
-
-/**
-* Popup description
-*/
-
+/* Popup description */
 .popup-description{
   text-align: center;
 }
-
-
-
-
-/**
-* Popup data
-*/
-
-
+/* Popup data */
 .popup-data {
   margin-left: 60px;
 }
-
 .popup-data label {
   display: inline-block;
   width: 60px;
 }
-
 .popup-data input {
   display: inline-block;
   width: 230px;
 }
-
-
-/**
-* Popup Send button
-*/
-
-
+/* Popup Send button */
 .send-button {
   margin-top: 10px;
   text-align: center;
 }
-
 .send-button input {
   float: right;
   width: 60px;
@@ -1574,18 +1331,12 @@ h2 {
   margin-left: 30px;
   margin-right: 30px;
   padding-top: 3px;
-
 }
-
 .send-button input:hover {
   background-color: #000;
   border: 1px solid #000;
   }
-
-/**
-* Popup Close
-*/
-
+/* Popup Close */
 .close {
   cursor: pointer;
   color: #518ca6;
@@ -1599,8 +1350,6 @@ h2 {
   width: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .close:hover {
 color: #000;
 }
-
