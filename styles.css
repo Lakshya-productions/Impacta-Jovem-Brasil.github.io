@@ -222,13 +222,32 @@ h1 {
   font-family: 'Airport'; font-weight: normal; font-style: normal;
   font-size: 98px;
 }
+.volunteer-icon {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+.icon-heart {
+  color: red;
+  font-size: 36px;
+  position: absolute;
+  top: 0;
+  left: 30%;
+}
+.icon-hands {
+  color: white;
+  font-size: 72px;
+}
+.separator { height: 1.8em; }
+.speech {
+  padding: 1.5em 0;
+}
 @media (max-width: 768px) {
   #intro .caption h1 { font-size: 70px; }
-  #intro .wallpaper { height: 400px; }
+  #intro .wallpaper { height: 450px; }
 }
 @media (max-width: 560px) {
   #intro .caption h1 { font-size: 60px; }
-  #intro .wallpaper { height: 350px; }
 }
 /* SOBRE & PROJETOS */
 .container {
