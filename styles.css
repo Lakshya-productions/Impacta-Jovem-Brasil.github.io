@@ -259,16 +259,12 @@ h1 {
 
 
 
-
-/*------------------- OWL -----------------*/
-.owl-theme .owl-dots .owl-dot {
-    outline: none;
-}
-
-
-
-
 /*------------------- INTRO -----------------*/
+#intro .wallpaper {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('Imagens/Fotos Internet/header3.jpg');
+  height: 500px;
+  background-size: cover;
+}
 #intro .caption {
   top: 30%;
 }
@@ -278,9 +274,13 @@ h1 {
 }
 @media (max-width: 768px) {
   #intro .caption h1 { font-size: 70px; }
+  #intro .wallpaper { height: 400px; }
 }
 @media (max-width: 560px) {
   #intro .caption h1 { font-size: 60px; }
+}
+@media (max-width: 460px) {
+  #intro .wallpaper { height: 300px; }
 }
 
 
