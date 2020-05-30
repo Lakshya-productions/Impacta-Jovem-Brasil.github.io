@@ -211,7 +211,7 @@ h1 {
 }
 /*------------------- INTRO -----------------*/
 #intro .wallpaper {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('Imagens/Fotos Internet/header3.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('Imagens/Fotos Internet/header3.jpg') no-repeat center;
   height: 500px;
   background-size: cover;
 }
@@ -527,8 +527,7 @@ h3 {
     color: black;
   }
   #instagram {
-    /*background-color: #033f46;*/
-    background-image: url('Imagens/Fotos Internet/sky2.jpg');
+    background-color: #056673;
     background-size: 100%;
     object-fit: cover;
     padding: 2em 0;
