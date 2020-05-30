@@ -915,22 +915,36 @@ width:  300px;
 /*----------------------------------------------------------------------------------------------------------------*/
 
 /*---------------------------- PROJETOS -------------------------*/
+#oportunidades .wallpaper {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('Imagens/Fotos/dc segundo dia-40.jpg');
+  height: 500px;
+  background-size: cover;
+}
+#social .wallpaper {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('Imagens/Fotos/Cópia de 27021309_568022433546332_5872920815833483232_o_1.jpg');
+  height: 500px;
+  background-size: cover;
+}
+#mentorias .wallpaper {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('Imagens/Fotos Internet/books.jpg');
+  height: 500px;
+  background-size: cover;
+}
 .wallpaper img {
   height: 500px;
   object-fit: cover;
 }
 @media (max-width: 768px) {
-  .wallpaper img {
+  .wallpaper img, #social .wallpaper, #mentorias .wallpaper, #oportunidades .wallpaper {
     height: 400px;
-    object-fit: cover;
   }
 }
 @media (max-width: 460px) {
-  .wallpaper img {
+  .wallpaper img, #social .wallpaper, #mentorias .wallpaper, #oportunidades .wallpaper {
     height: 300px;
-    object-fit: cover;
   }
 }
+
 .caption h1, #title-aplicar h1 {
   font-size: 64px;
 }
