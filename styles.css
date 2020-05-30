@@ -221,6 +221,7 @@ h1 {
 #intro .caption h1 {
   font-family: 'Airport'; font-weight: normal; font-style: normal;
   font-size: 98px;
+  line-height: 1;
 }
 .volunteer-icon {
   position: relative;
