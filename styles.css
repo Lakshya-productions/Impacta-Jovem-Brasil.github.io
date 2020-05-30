@@ -977,7 +977,7 @@ width:  300px;
 #aplicar a {
   text-decoration: none;
 }
-#aplicar p:hover, #aplicar p:active {
+#aplicar p.button-apply:hover, #aplicar p.button-apply:active {
   color: white;
   background-color: #00b4d8;
   transition: background-color 0.5s ease;
