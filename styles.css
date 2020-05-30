@@ -496,6 +496,16 @@ h3 {
     text-decoration: none;
   }
   /*        INSTAGRAM      */
+  .svg-ig {
+    width: 1em;
+    height: 1em;
+    font-size: 20px; 
+  }
+  #instagram a { text-decoration: none; }
+  #polaroid-tittle {
+    padding-top: 10px;
+    color: black;
+  }
   #instagram {
     /*background-color: #033f46;*/
     background-image: url('Imagens/Fotos Internet/sky2.jpg');
@@ -547,11 +557,6 @@ h3 {
     left: 56rem;
     padding: 0.5rem 0.5rem 2rem;
     transition: opacity 0.2s ease 0s;
-  }
-  #polaroid-tittle{
-    padding-top: 10px;
-    text-decoration: none;
-    color: black;
   }
   #instagram .pics a:hover {
     opacity: 0.7;
