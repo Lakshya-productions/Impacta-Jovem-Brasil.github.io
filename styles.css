@@ -919,7 +919,7 @@ width:  300px;
   background-size: cover;
 }
 #social .wallpaper {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('Imagens/Fotos/Cópia de 27021309_568022433546332_5872920815833483232_o_1.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('Imagens/Fotos/Cópia de 27021309_568022433546332_5872920815833483232_o_1.jpg') no-repeat center;
   height: 500px;
   background-size: cover;
 }
