@@ -649,7 +649,7 @@ h3 {
   width: 14rem;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 16px 0px, rgba(0, 0, 0, 0.2) 0px 0px 4px 0px;
   left: 42rem;
-  transform: rotate(15deg);
+  transform: rotate(-15deg);
   padding: 0.5rem 0.5rem 2rem;
   transition: opacity 0.2s ease 0s;
 }
