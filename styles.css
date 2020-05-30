@@ -278,9 +278,7 @@ h1 {
 }
 @media (max-width: 560px) {
   #intro .caption h1 { font-size: 60px; }
-}
-@media (max-width: 460px) {
-  #intro .wallpaper { height: 300px; }
+  #intro .wallpaper { height: 350px; }
 }
 
 
