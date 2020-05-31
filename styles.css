@@ -795,6 +795,11 @@ width:  300px;
 	color: #daaa1b;
 }
 /*  PROJETOS  */
+#time .wallpaper {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('Imagens/Fotos Internet/time.jpg') no-repeat center;
+  height: 300px;
+  background-size: cover;
+}
 #oportunidades .wallpaper {
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('Imagens/Fotos/dc segundo dia-40.jpg');
   height: 500px;
