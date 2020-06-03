@@ -49,7 +49,7 @@
 }
 body{
 	margin: 0;
-	padding: 0;
+  padding: 0;
 }
 h1,
 h2,
@@ -210,14 +210,17 @@ h1 {
   font-style: normal;
 }
 /*------------------- INTRO -----------------*/
-#intro .wallpaper {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('Imagens/Fotos Internet/header3.jpg') no-repeat center;
-  height: 500px;
+#intro .wallpaper{
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url('Imagens/Fotos Internet/header3.jpg') no-repeat center;
+  height: 600px;
   background-size: cover;
 }
-#intro .caption {
-  top: 30%;
+
+#text-intro{
+ text-align: center;
 }
+
+
 #intro .caption h1 {
   font-family: 'Airport'; font-weight: normal; font-style: normal;
   font-size: 98px;
@@ -510,7 +513,7 @@ h3 {
     border: 3px solid #ffbe0b;
   }
   #botao-saiba-mais:hover {
-    color: black;
+    color: rgba(0, 0, 0, 0.623);
     background-color: #ffbe0b;
     transition: background-color 0.5s ease;
     text-decoration: none;
@@ -527,14 +530,14 @@ h3 {
     color: black;
   }
   #instagram {
-    background-color: #056673;
+    background-color: #daaa1b;
     background-size: 100%;
     object-fit: cover;
     padding: 2em 0;
     display: block;
   }
   #instagram h1{
-    color: #daaa1b;
+    color: #056673;
     padding-bottom: 15px;
     font-size: 50px;
   }
@@ -974,10 +977,12 @@ width:  300px;
   text-decoration: none;
 }
 /* TIMELINE INTRO */
+
+
 #timeline-intro {
   background: #daaa1b;
   padding: 30px 0;
-  color: black;
+  color: rgba(0, 0, 0, 0.555);
 }
 #timeline-container {
   width: 90%;
@@ -985,6 +990,7 @@ width:  300px;
   margin: 0 auto;
   text-align: center;
 }
+
 /* TIMELINE */
 .timeline {
   padding-bottom: 40px;
@@ -1118,8 +1124,7 @@ time {
 .testimonial {
     min-height: 375px;
     position: relative;
-    /*background-color: #daaa1b;*/
-    background: url(images/books-bg-2.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url(./Imagens/Fotos\ Internet/library.jpeg);
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
