@@ -212,17 +212,17 @@ h1 {
 /*------------------- INTRO -----------------*/
 #intro .wallpaper{
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url('Imagens/Fotos Internet/header3.jpg') no-repeat center;
-  height: 500px;
+  height: 600px;
   background-size: cover;
 }
 @media(max-width: 768px) {
 	#intro .wallpaper {
-		height: 400px;
+		height: 500px;
 	}
 }
 @media(max-width: 768px) {
 	#intro .wallpaper {
-		height: 350px;
+		height: 450px;
 	}
 }
 
