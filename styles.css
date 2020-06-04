@@ -212,8 +212,18 @@ h1 {
 /*------------------- INTRO -----------------*/
 #intro .wallpaper{
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url('Imagens/Fotos Internet/header3.jpg') no-repeat center;
-  height: 600px;
+  height: 500px;
   background-size: cover;
+}
+@media(max-width: 768px) {
+	#intro .wallpaper {
+		height: 400px;
+	}
+}
+@media(max-width: 768px) {
+	#intro .wallpaper {
+		height: 350px;
+	}
 }
 
 #text-intro{
