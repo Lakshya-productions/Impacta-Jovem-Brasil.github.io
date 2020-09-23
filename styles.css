@@ -923,9 +923,11 @@ width:  300px;
 	margin-bottom: 8px;
 }
 #container-membros .row .col img {
-	height: auto;
+	height: 150px;
 	width: 150px;
 	border-radius: 5px;
+	background-position: center center;
+        object-fit: cover;
 }
 #container-membros .row .col img:hover {
 	opacity: 0.8;
