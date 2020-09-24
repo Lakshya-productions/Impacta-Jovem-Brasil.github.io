@@ -1037,7 +1037,8 @@ width:  300px;
   width: 400px;
   padding: 15px;
   background: #0d5900;
-  color: #021f22;
+  color: white;
+  border-radius: 5px;
   box-shadow: 0 30px 30px rgba(0,0,0,.5);
 }
 .timeline ul li div time{
