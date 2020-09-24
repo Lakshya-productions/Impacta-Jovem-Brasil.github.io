@@ -1039,6 +1039,7 @@ width:  300px;
   background: #0d5900;
   color: white;
   border-radius: 5px;
+  font-weight: 500;
   box-shadow: 0 30px 30px rgba(0,0,0,.5);
 }
 .timeline ul li div time{
