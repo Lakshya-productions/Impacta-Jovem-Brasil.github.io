@@ -954,6 +954,12 @@ width:  300px;
 	transform: scale(1.1);
 }
 /* GALERIA */
+#galeria .container section p {
+	color: dimgrey;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+}
 #container-galeria img:hover {
   opacity: 0.8;
   transition: opacity 0.3s;
