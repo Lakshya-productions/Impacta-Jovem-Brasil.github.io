@@ -813,13 +813,6 @@ width:  300px;
   height: 300px;
   background-size: cover;
 }
-#time section p {
-	padding-top: 20px;
-	font-size: 18px;
-	font-weight: normal;
-	color: dimgrey;
-	text-align: center;
-}
 #oportunidades .wallpaper {
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('Imagens/Fotos/dc segundo dia-40.jpg');
   height: 500px;
@@ -913,6 +906,20 @@ width:  300px;
 
 }
 /* MEMBROS */
+#membros section p {
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: normal;
+  color: dimgrey;
+  text-align: center;
+}
+#creditos section p {
+  padding-top: 60px;
+  font-size: 18px;
+  font-weight: normal;
+  color: dimgrey;
+  text-align: left;
+}
 #container-membros .row .col {
 	text-align: center;
 	justify-content: center;
