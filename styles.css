@@ -1415,3 +1415,7 @@ h2 {
 .close:hover {
 color: #000;
 }
+/* TERMOS */
+#termos p, #termos h4, #termos h1 {
+	text-transform: uppercase;
+}
