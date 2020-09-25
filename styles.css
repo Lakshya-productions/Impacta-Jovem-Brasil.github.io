@@ -204,11 +204,11 @@ h1 {
 		width: 24px;
 	}
 }
-#title-FAQ h1, #title-membros h1, #title-contato h1 {
+/*#title-FAQ h1, #title-membros h1, #title-contato h1 {
   font-family: 'Airport'; 
   font-weight: normal; 
   font-style: normal;
-}
+}*/
 /*------------------- INTRO -----------------*/
 #intro .wallpaper{
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url('Imagens/Fotos Internet/header3.jpg') no-repeat center;
